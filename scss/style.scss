@@ -388,6 +388,7 @@ align-items: center;
    
     @media(min-width:500px){
       .box__conteiner {
+        margin-top: 300px;
         display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1px;
