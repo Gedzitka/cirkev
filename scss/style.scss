@@ -153,6 +153,22 @@ padding: 0;
     position: relative;
     box-shadow:  5px 5px 30px 0 gray; 
 }
+.scroll-down .header {
+  transform: translate3d(0, -170%, 0);
+}
+
+.scroll-down .lottie-wrapper {
+  background: var(--darkgray);
+}
+
+.scroll-up.header {
+  transform: none;
+}
+
+.scroll-up:not(.menu-open) .trigger-menu-wrapper {
+  background: var(--lightpurple);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
 
 
 .header_h1{
@@ -177,6 +193,7 @@ padding: 0;
     
 
 }
+
 .bible{
  color: $white;
  font-size: 20px;
@@ -419,19 +436,4 @@ padding: 0;
         transform: translateY(0px);
         opacity: 1;
     }
-    .scroll-down .header {
-      transform: translate3d(0, -150%, 0);
-    }
     
-    .scroll-down .lottie-wrapper {
-      background: var(--darkgray);
-    }
-    
-    .scroll-up.header {
-      transform: none;
-    }
-    
-    .scroll-up:not(.menu-open) .trigger-menu-wrapper {
-      background: var(--lightpurple);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
-    }
