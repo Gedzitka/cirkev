@@ -29,7 +29,7 @@ window.addEventListener("scroll", function(){
       reveals.forEach(function(oneBlok){
           let windowHeight = window.innerHeight
           let revealTop = oneBlok.getBoundingClientRect().top
-          const revealPoint = 100
+          const revealPoint = 50
    
           if (revealTop < windowHeight - revealPoint) {
               oneBlok.classList.add("active")
@@ -41,3 +41,32 @@ window.addEventListener("scroll", function(){
   })
 
 })
+const body = document.body;
+const lottiePlayer = document.querySelector("lottie-player");
+const scrollUp = "scroll-up";
+const scrollDown = "scroll-down";
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= 0) {
+    body.classList.remove(scrollUp);
+    return;
+  }
+
+  if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+    // down
+    body.classList.remove(scrollUp);
+    body.classList.add(scrollDown);
+    lottiePlayer.play();
+  } else if (
+    currentScroll < lastScroll &&
+    body.classList.contains(scrollDown)
+  ) {
+    // up
+    body.classList.remove(scrollDown);
+    body.classList.add(scrollUp);
+    lottiePlayer.stop();
+  }
+  lastScroll = currentScroll;
+});
