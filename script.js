@@ -70,3 +70,7 @@ window.addEventListener("scroll", () => {
   }
   lastScroll = currentScroll;
 });
+
+function scrollWin(x, y) {
+  window.scrollBy(x, y);
+}

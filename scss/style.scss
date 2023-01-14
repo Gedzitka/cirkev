@@ -12,6 +12,7 @@ $red:#963131;
 $shadow: 0px 5px 10px 0px #aaa;
 $shadow-dack:0px 5px 10px 0px rgb(48, 45, 45);
 $font-base:'Quintessential';
+$font-second:'Poppins', sans-serif;
 $specer:30px;
 
 
@@ -341,7 +342,7 @@ padding: 0;
     }
     .boxes{
    
-      
+      height: auto;
       width: 100% ;
       display: flex;
       justify-content: center;
@@ -395,7 +396,8 @@ padding: 0;
    
     @media(min-width:500px){
       .box__conteiner {
-        margin-top: 300px;
+      
+        
         display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1px;
@@ -406,9 +408,7 @@ padding: 0;
       .box__photo{
         flex-basis: 50%
       }
-      .boxes{
-        height: 70vh;
-      }
+      
     }
     
       @media(min-width:1040px){
@@ -422,7 +422,7 @@ padding: 0;
         .header__logo{
           width: 30%;
         }
-        .boxes{height: 30vh;}
+        
       }
       .reveal {
         /* transform: translateY(150px); */
@@ -436,4 +436,93 @@ padding: 0;
         transform: translateY(0px);
         opacity: 1;
     }
+    .scroller{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 100px;
+    }
+  .scroller__button{
+
+    border-radius: 100%;
+  background-color: $black;
+    color: $white;
+    border: solid 2px $white;
+    width: 5.5em;
+    height: 5.5em;
+    font-family: $font-base;
+    font-size: 20px;
+    margin-bottom: -20px;
+  }
+  .scroller__button:hover{
+    color: $orang;
+
+  }
+.footer{
+
+  background-color: black;
+height: auto;
+}
+ 
+ .footer__links{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:5px ;
+  gap:5%;
+  margin:15px;
+ }
+ .footer-link{
+  color: $white;
+  text-decoration: none;
+
+ }
+ .footer-link:hover{
+color:$orang
+ }
+ 
+ .footer__icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  margin:10px;
+ }
+ .icon{
+  max-width: 100%;
+  width: 30px;
+ height: auto;
+ }
+ .footer__copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $black;
+  padding: 10px;
+ }
+ @media(min-width:800px){
+  .footer__links{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  font-size: 18px; 
+    
+  }
+  
+  .footer__links__conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer__contact{
+  text-align: left;
+  padding: 20px;
+  color: $white;
+  border-bottom: solid 2px $orang;
+  font-family: $font-second;
+}
     
