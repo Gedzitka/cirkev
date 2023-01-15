@@ -491,15 +491,15 @@ body {
 .footer__contact {
   text-align: left;
   padding: 20px;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   font-family: "Poppins", sans-serif;
-  -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  border-bottom: 2px solid #963131;
+  border-top: 2px solid #963131;
 }
 
 .footer__contact__link {
-  color: white;
+  color: black;
   text-decoration: none;
   z-index: 0;
 }
