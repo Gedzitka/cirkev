@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Quintessential&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="/scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- header -->
+<header class="header">
+    <div class="header__container"> 
+       <nav class="header__navbar">
+       <a href="/"> 
+        <img class="header__logo" src="/img/obec-logo_optimized.png" alt="">
+        </a>
+        
+          <ul class="header__nav-menu">
+             <li class="nav-item">
+                <a href="/" class="nav-link">ÚVOD</a>
+             </li>
+             <li class="nav-item">
+                <a href="/o-mne/" class="nav-link">OBEC</a>
+             </li>
+             <li class="nav-item">
+              <a href="/masaze/" class="nav-link">BOHOSLUŽBY</a>
+           </li>
+             <li class="nav-item">
+                <a href="/cenik/" class="nav-link">GALERIE</a>
+             </li>
+             <li class="nav-item">
+                <a href="/fotogalerie/" class="nav-link">AKTUALITY</a>
+             </li>
+             <li class="nav-item">
+              <a href="/kontakty/" class="nav-link">KONTAKTY</a>
+           </li>
+          </ul>
+          <div class="header__hamburger">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+          </div>
+       </nav>
+    </div>
+  </header>
+  <a href="" role="button" aria-label="Toggle menu" class="lottie-wrapper">
+    <lottie-player src="https://assets10.lottiefiles.com/datafiles/9gIwZ2uiiKglyb0/data.json" style="width: 60px; height: 60px;"></lottie-player>
+  </a>
+{{ content | safe }}
+   <section class="footer">
+    <div class="footer__contact">
+      <h2 class="footer__contact__title">KONTAKTY</h2>
+      <p class="contact__text">
+        Chrám Povýšení svatého Kříže v Táboře  <br>
+         <a class="footer__contact__link" href="https://mapy.cz/zakladni?source=addr&id=11321586&ds=1&x=14.6589825&y=49.4152544&z=17">Špitálském náměstí č. 285/1</a> <br>
+        kněz Mgr. et Mgr. Jiří Táborský, DiS. <br>
+        Tel: <a class="footer__contact__link" href="tel:+420 776 374 963 ">+420 776 374 963</a> <br>
+        E-mail: <a class="footer__contact__link" href="mailto:o.jiri.taborsky@gmail.com "> o.jiri.taborsky@gmail.com </a> <br>
+        Facebook: <a class="footer__contact__link" href="https://www.facebook.com/groups/cerkvatabor">https://www.facebook.com/groups/cerkvatabor </a>
+      </p>
+    </div>
+    <div class="footer__links__conteiner">
+  <div class="footer__links">
+  <a href="/" class="footer-link">Úvod</a> 
+  <a href="/o_mne/" class="footer-link">Obec</a>
+  <a href="/sluzby/" class="footer-link">Bohoslužby</a>
+  <a href="/cenik/" class="footer-link">Galerie</a>
+  <a href="/fotogalerie/" class="footer-link">Aktuality</a>
+  <a href="/kontakty/" class="footer-link">Kontakty</a> 
+</div>
+</div>
+<div class="footer__icons">
+<a href="https://www.facebook.com/groups/cerkvatabor"><img class="icon" src="/img/fc.png" alt="facebook"></a> 
+<a href="tel:+420 776 374 963 "><img class="icon" src="/img/mobil.png" alt="mobil"></a>
+<a href="https://mapy.cz/zakladni?source=addr&id=11321586&ds=1&x=14.6589825&y=49.4152544&z=17"><img class="icon" src="/img/map.png" alt="adresa"></a>
+<a href="mailto:o.jiri.taborsky@gmail.com"> <img class="icon" src="/img/mail.png" alt="email"></a>
+ 
+</div>
+<div class="footer__copyright">
+  <p class="copy">Copyright ©2022 JA NI NA</p>
+</div>
+  
+</section>
+
+ <script src="script.js"></script>   
+</body>
+</html>
