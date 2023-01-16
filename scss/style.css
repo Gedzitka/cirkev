@@ -415,16 +415,22 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: 100px;
-}
-
-.contact__logo {
-  width: 30%;
-  z-index: 1;
+  margin-bottom: -10px;
 }
 
 .scroller__button {
-  margin-bottom: -50px;
+  width: 4.5em;
+  height: 4.5em;
+  background-color: black;
   z-index: 1;
+  color: white;
+  border-radius: 100%;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.scroller__button:hover {
+  color: #963131;
 }
 
 .footer {
@@ -491,17 +497,15 @@ body {
 .footer__contact {
   text-align: left;
   padding: 20px;
-  color: black;
-  background-color: white;
-  font-family: "Poppins", sans-serif;
-  border-bottom: 2px solid #963131;
-  border-top: 2px solid #963131;
+  color: white;
+  background-color: black;
+  font-family: "Quintessential";
+  font-size: 14px;
 }
 
 .footer__contact__link {
-  color: black;
+  color: white;
   text-decoration: none;
-  z-index: 0;
 }
 
 .footer__contact__link:hover {
