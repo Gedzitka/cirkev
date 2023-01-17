@@ -410,6 +410,49 @@ body {
   opacity: 1;
 }
 
+.about {
+  padding-top: 100px;
+}
+
+.about__obec {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.about__title__photo {
+  background-image: url(/img/o_obci.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.title__h2 {
+  padding: 100px 50px;
+  font-size: 30px;
+}
+
+.obec__chram__photo {
+  width: 100%;
+  margin-top: 200px;
+  display: none;
+}
+
+.otec__photo {
+  width: 100%;
+}
+
+.obec__text, .otec__text {
+  background-color: white;
+  width: 95%;
+  margin-top: -30px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
 .scroller {
   display: flex;
   justify-content: center;
