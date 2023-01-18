@@ -32,7 +32,8 @@ padding: 0;
     position: fixed;
     width: 100%;
     height: auto;
-    z-index: 1;
+    z-index: 2;
+
    }
      .nav-item{
        list-style: none;
@@ -327,6 +328,8 @@ padding: 0;
      background-image: url(/img/welcome.png) ;
      font-size: 20px;
      background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
      box-shadow: $shadow;
      margin-bottom: 150px;
      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
@@ -345,6 +348,7 @@ padding: 0;
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-bottom: 100px;
      
     }
     .reveal{
@@ -450,22 +454,29 @@ padding: 0;
       width: 100%;
       background-position: center;
       background-size: cover;
-      height: 400px
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
      
       
     }
     .title__h2{
-      padding: 100px 50px;
+      padding: 30px;
       font-size: 30px;
+      background-color:rgba(253, 252, 252, 0.5);
+     
     }
     .obec__chram__photo{
       width: 100%;
       margin-top: 200px;
       display: none;
     }
-    .otec__photo{
+    .otec__photo__male{
       
-      width: 100%
+      width: 100%;
+      display: none;
+      
     }
     .obec__text, .otec__text{
       background-color: $white;
@@ -477,6 +488,72 @@ padding: 0;
       
 
     }
+    .otec__photo__velke{
+      width: 100%;
+    }
+    .obec__conteiner{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media(min-width:800px){
+      .about__title__photo{
+        height: 600px;
+      }
+      .scroller__button{
+        display: none;
+      }
+      .obec__chram__photo{
+        display: block;
+        margin-top: 0;
+        
+      }
+      .otec__text{
+        margin:0 -30px 0 0;
+        width: 50%;
+        z-index: 1;
+       
+      }
+      .obec__text{
+        margin:0 0 0 -30px;
+        width:50%
+      }
+      .obec__conteiner{
+        margin-top: 200px;
+        flex-direction: row;
+
+        
+      } 
+     
+      .otec__photo__male{
+       display: block;
+
+      }
+      .otec__photo__velke{
+        display: none;
+      }
+    }
+    @media(min-width:1250px){
+      .about__title__photo{
+        height: 100vh;
+       
+      }
+      .title__h2{
+        padding: 50px;
+        font-size: 40px;
+      }
+      .obec__text,.otec__text{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+      }
+
+    }
+      
     .scroller{
       display: flex;
       justify-content: center;
@@ -484,6 +561,7 @@ padding: 0;
       margin-top: 100px;
       margin-bottom: -10px;
      
+
     }
   
   
@@ -503,7 +581,7 @@ padding: 0;
   }
 
 .footer{
-background-color:$white;
+background-color:$primary;
 height: auto;
 color:$black;
 }
@@ -565,15 +643,15 @@ color:$black;
 .footer__contact{
   text-align: left;
   padding: 20px;
-  color: $white;
-  background-color:$black;
+  color: $black;
+  background-color:$primary;
   font-family: $font-base;
   font-size: 14px;
-  
+  border-bottom: 2px solid $white;
 
 }
 .footer__contact__link{
-  color:$white;
+  color:$black;
   text-decoration: none;
  
 
