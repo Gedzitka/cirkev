@@ -584,25 +584,30 @@ padding: 0;
       margin-top: 100px;
     }
     .time__table{
-      width: 80%;
+      width: 90%;
       border: solid 2px;
 
     }
   
     .servis__wednesday{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      width: 80%;
       height: 200px;
       background-color: $primary;
       text-align: center;
-      font-size: 20px;
+      font-size: 15px;
       margin-top: -20px;
-      display: none;
-      padding: 50px;
+     
+      
+      
       
 
+    }
+    .wednesday__time{
+      width: 80%;
+      display: none;
     }
       
     .scroller{
