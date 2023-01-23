@@ -74,3 +74,9 @@ window.addEventListener("scroll", () => {
 function scrollWin(x, y) {
   window.scrollBy(x, y);
 }
+$(function(){
+  $(".servis__wednesday").show(2000);
+
+
+}
+)
