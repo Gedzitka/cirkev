@@ -12,7 +12,7 @@
 <body>
     
 <!-- header -->
-<header class="header">
+<header id="header">
     <div class="header__container"> 
        <nav class="header__navbar">
        <a href="/"> 
@@ -47,9 +47,7 @@
        </nav>
     </div>
   </header>
-  <a href="" role="button" aria-label="Toggle menu" class="lottie-wrapper">
-    <lottie-player src="https://assets10.lottiefiles.com/datafiles/9gIwZ2uiiKglyb0/data.json" style="width: 60px; height: 60px;"></lottie-player>
-  </a>
+  
 {{ content | safe }}
 <div class="scroller">
   <a class="scroller__button" onclick="scrollWin(0, -1500)">zpět</a>

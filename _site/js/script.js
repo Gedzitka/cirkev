@@ -41,35 +41,7 @@ window.addEventListener("scroll", function(){
   })
 
 })
-const body = document.body;
-const lottiePlayer = document.querySelector("lottie-player");
-const scrollUp = "scroll-up";
-const scrollDown = "scroll-down";
-let lastScroll = 0;
 
-window.addEventListener("scroll", () => {
-  const currentScroll = window.pageYOffset;
-  if (currentScroll <= 0) {
-    body.classList.remove(scrollUp);
-    return;
-  }
-
-  if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
-    // down
-    body.classList.remove(scrollUp);
-    body.classList.add(scrollDown);
-    lottiePlayer.play();
-  } else if (
-    currentScroll < lastScroll &&
-    body.classList.contains(scrollDown)
-  ) {
-    // up
-    body.classList.remove(scrollDown);
-    body.classList.add(scrollUp);
-    lottiePlayer.stop();
-  }
-  lastScroll = currentScroll;
-});
 
 function scrollWin(x, y) {
   window.scrollBy(x, y);
@@ -80,3 +52,15 @@ $(function(){
 
 }
 )
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-200px";
+  }
+  prevScrollpos = currentScrollPos;
+}

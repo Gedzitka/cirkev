@@ -27,13 +27,15 @@ padding: 0;
   margin: 0;
 }
 
-.header{
+#header{
+
     background-color:$white;
     position: fixed;
     width: 100%;
     height: auto;
     z-index: 2;
-
+    top:0;
+    display: block;
    }
      .nav-item{
        list-style: none;
@@ -64,6 +66,7 @@ padding: 0;
        margin-bottom: -50px;
        animation-name: logo;
        animation-duration: 2s;
+       
     
      }  
      @keyframes logo {
