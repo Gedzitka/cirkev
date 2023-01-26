@@ -380,7 +380,7 @@ padding: 0;
     }
     
     .photo__description{
-     margin-top: -135%;
+      margin-top: -135%;
       text-align: center;
       color: $white;
       width: 100%;
@@ -453,8 +453,9 @@ padding: 0;
     }
 
     .about__title__photo{
-      background-image: url(/img/o_obci.png);
+      background:rgba(160, 158, 158, 0.546) url(/img/o_obci.png);
       width: 100%;
+      background-blend-mode:darken;
       background-position: center;
       background-size: cover;
       height: 400px;
@@ -465,9 +466,8 @@ padding: 0;
       
     }
     .title__h2{
-      padding: 30px;
       font-size: 30px;
-      background-color:rgba(253, 252, 252, 0.5);
+      color: $white;
      
     }
     .obec__chram__photo{
@@ -483,6 +483,9 @@ padding: 0;
     }
     .obec__text, .otec__text{
       background-color: $white;
+      border-top: solid 1px ;
+      border-right: solid 1px ;
+      border-left: solid 1px ;
       width: 95%;
       margin-top: -30px;
       text-align: center;
@@ -517,11 +520,13 @@ padding: 0;
         margin:0 -30px 0 0;
         width: 50%;
         z-index: 1;
+        border: none;
        
       }
       .obec__text{
         margin:0 0 0 -30px;
-        width:50%
+        width:50%;
+        border: none;
       }
       .obec__conteiner{
         margin-top: 200px;
@@ -564,8 +569,9 @@ padding: 0;
     }
    
     .servis__title__photo{
-      background-image: url(/img/footer_optimized.jpg);
+      background: rgb(0, 0, 0, 0.5) url(/img/footer_optimized.jpg);
       background-position: center;
+      background-blend-mode:darken;
       background-size: cover;
       background-repeat: no-repeat;
       width: 100%;
@@ -577,8 +583,6 @@ padding: 0;
     }
     .servis__title__h2{
       color: $white;
-      background-color:rgba(31, 29, 29, 0.5);
-      padding: 20px;
     }
     .servis__time{
       display: flex;
@@ -611,6 +615,18 @@ padding: 0;
     .wednesday__time{
       width: 80%;
       display: none;
+    }
+    @media(min-width:800px){
+      .wednesday__time{
+        font-size: 22px;
+        width: 60%;
+      }
+      .servis__title__photo{
+        height: 600px;
+      }
+      .time__table{
+        width: 70%;
+      }
     }
       
     .scroller{
