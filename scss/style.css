@@ -613,7 +613,7 @@ body {
 .actual__grid {
   margin-top: 100px;
   margin-bottom: 100px;
-  width: 70%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 40vw);
