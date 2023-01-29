@@ -10,16 +10,16 @@ hamburger.addEventListener("click",function (){
     navMenu.classList.remove("active");
   }))
 
-  var counter = 1;
-setInterval(function()  {
-  document.getElementById('radio'+ counter).checked = true;
-  counter++; 
+//   var counter = 1;
+// setInterval(function()  {
+//   document.getElementById('radio'+ counter).checked = true;
+//   counter++; 
 
-  if(counter>4){
-    counter=1
-  }
+//   if(counter>4){
+//     counter=1
+//   }
 
-}, 2000);
+// }, 2000);
 
 window.addEventListener("scroll", function(){
   const reveals  = document.querySelectorAll(".reveal")
