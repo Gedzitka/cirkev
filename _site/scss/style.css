@@ -699,6 +699,7 @@ body {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    font-size: 18px;
   }
   .Gorazd, .Pachomij, .Bohorodice, .Zvestovani {
     margin: 0;
