@@ -185,129 +185,36 @@ body {
   background-size: cover;
 }
 
-.bible {
-  color: white;
-  font-size: 20px;
-  text-align: center;
+.Slides {
+  display: none;
 }
 
-.slider_conteiner {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 70%;
-  height: 50%;
+/* Slideshow container */
+.slideshow__container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 70%;
+  height: 200px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.slider {
-  width: 70%;
-  height: auto;
-  overflow: hidden;
+/* Caption text */
+.slideshow__text {
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: left;
 }
 
-.slides {
-  width: 500%;
-  height: 300px;
-  display: flex;
+@media (min-width: 1024px) {
+  .slideshow__container {
+    width: 50%;
+  }
+  .slideshow__text {
+    font-size: 20px;
+  }
 }
-
-.slides input {
-  display: none;
-}
-
-.slide {
-  width: 20%;
-  transition: 1s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slide img {
-  width: 800px;
-  height: 500px;
-}
-
-.navigation-mannual {
-  position: absolute;
-  width: 40%;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-}
-
-.mannual-btn {
-  border: 2px solid #ccc;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-}
-
-.mannual-btn:not(:last-child) {
-  margin-right: 40px;
-}
-
-.mannual-btn:hover {
-  background-color: #ccc;
-}
-
-#radio1:checked ~ .first {
-  margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-  margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-  margin-left: -40%;
-}
-
-#radio4:checked ~ .first {
-  margin-left: -60%;
-}
-
-/* Automatic Navigation */
-.navigation-auto {
-  position: absolute;
-  display: flex;
-  width: 800px;
-  justify-content: center;
-  margin-top: 460px;
-  display: none;
-}
-
-.navigation-auto div {
-  border: 2px solid #333;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.navigation-auto div:not(:last-child) {
-  margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn-1 {
-  background: #ccc;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn-2 {
-  background: #ccc;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn-3 {
-  background: #ccc;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn-4 {
-  background: #ccc;
-}
-
 .reveal_welcome__div {
   padding: 30px;
   background-image: url(/img/welcome.png);
