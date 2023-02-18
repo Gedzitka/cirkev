@@ -640,6 +640,78 @@ padding: 0;
         width: 70%;
       }
     }
+    .article__img{
+      width: 100%;
+      margin-top: 80px;
+    }
+    .article{
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .article__text{
+      padding: 20px;
+      text-align: justify;
+    }
+    .article__perex{
+      font-weight: bold;
+      padding: 10px;
+    }
+    .article__meta{
+      color: gray;
+    }
+    p{
+      padding-bottom: 10px;}
+      @media(min-width:800px){
+        
+        
+        .article__img{
+          margin-top: 0;
+          width: 40%;
+          padding: 20px;
+          float: right;
+        }
+        .clanek{
+          display: grid;
+          grid-template-columns: 400px 1fr;
+          gap: 30px;
+          align-items: center;
+          margin: 50px;
+    
+    
+        }
+      }
+    .blog{
+   margin-top: 80px;
+   
+  
+    }
+    .blog__photo{
+      margin-bottom: 100px;
+      background-image: url(/img/kontakty.png);
+      height: 400px;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      color: $white;
+      
+    }
+    .clanek{
+      width: 80%;
+      align-items: center;
+      margin: 50px;
+
+
+    }
+    .clanek img{
+      width: 100%;
+      margin-bottom: 30px;
+    }
     .home__blog{
       display: flex;
       flex-direction: column;
@@ -836,6 +908,7 @@ transform: scale(1.1);
    }   
 
 .footer{
+padding: 10px;
 background-color:$primary;
 height: auto;
 color:$black;
@@ -959,7 +1032,9 @@ margin-bottom: 0;
  }
 
  .map{
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+
  }
  
  @media(min-width:800px){
