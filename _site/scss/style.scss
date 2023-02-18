@@ -804,12 +804,10 @@ transform: scale(1.1);
   
   
   .scroller__button{
-    width: 4.5em;
-    height: 4.5em;
+    
     z-index: 1;
     color: $black;
-    border-radius: 100%;
-    padding: 20px;
+    padding: 10px 20px;
     border: 2px solid $black;
     margin-top: 0;
    
@@ -980,6 +978,7 @@ margin-bottom: 0;
   padding: 0;
   margin-top: 0;
   height: 100%;
+  font-size: 18px;
 
 
 
