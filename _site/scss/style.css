@@ -720,10 +720,11 @@ body {
 }
 
 .scroller__button {
+  margin-top: 20px;
   z-index: 1;
   color: black;
   padding: 10px 20px;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-top: 0;
 }
 
