@@ -95,7 +95,7 @@ body {
   background-color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
   .header__hamburger {
     display: block;
     color: black;
