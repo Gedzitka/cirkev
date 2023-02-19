@@ -1,56 +1,22 @@
 ---
 layout: moje_sablona.njk
-title: Aktuality
+title: aktuality
 ---
-<!-- <div class="none__slideshow__container">
-
-    <div class="mySlides fade">
-     
-      
-      <div class="slideshow__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ratione laboriosam eaque molestiae culpa, expedita explicabo officiis ducimus, officia enim placeat facere modi aliquam autem consectetur facilis! Dolore, vitae eveniet!</div>
-    </div>
-    
-    <div class="mySlides fade">
-      
-      
-      <div class="slideshow__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore tempora reiciendis animi aliquid laudantium consequatur maxime ipsa sed voluptate, nemo, provident dolore cupiditate et veniam vel error sapiente neque atque.</div>
-    </div>
-    
-    <div class="mySlides fade">
-      
-      
-      <div class="slideshow__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores minima libero, enim vero minus perspiciatis voluptatem rerum amet maiores ipsam debitis neque, illo quas. Reprehenderit ipsam alias accusamus rem.
-
-
-
-
-
-       </div>
-       </div>
-    </div> -->
-<div class="actual__photo">
-<h2 class="actual__title">AKTUALITY</h2>
-</div>
 <section class="actual">
-<div class="actual__grid">
-    <div class="Gorazd">
-    <img class="item__photo" src="/img/sv_optimized.gorazd.jfif" alt="sv.Gorazd">
-    <p class="actual__text">Sv. Gorazd
-        Toho, Bůh dá, nebude, aby Kristův kněz z boje utíkal ...
-        </p>
-</div>
-<div class="Pachomij">
-    <img class="item__photo" src="/img/otec_Pachomij.jpg" alt="otec_Pachomij">
-    <p class="actual__text">Otec Pachomij
-        Svědek Bohočlověka Krista</p>
-</div>
-<div class="Bohorodice">
-    <img class="item__photo" src="/img/bohorodice_optimized.jpg" alt="bohorodice">
-    <p class="actual__text">Proč a jak mlčí Církev o Bohorodičce?</p>
-</div>
-<div class="Zvestovani">
-    <img class="item__photo" src="/img/zvestovani_optimized.jpg" alt="zvestovani">
-<p class="actual__text">Vše začíná Zvěstováním</p>
+<div class="actual__photo">
+<h1>AKTUALITY</h1>
+</div>  
+{% for aktualita in collections.aktuality %}
+<div class="clanek">
+    <img src="/img/{{aktualita.data.foto}}" alt="{{aktualita.data.alt}}">
+    <div class="clanek__popis">
+
+<h2>
+    {{aktualita.data.title}}
+</h2>
+<p class="perex">{{aktualita.data.perex}}</p>
+<p> <a class="all" href="{{aktualita.url}}">O události</a></p>
 </div>
 </div>
+{% endfor %}
 </section>
