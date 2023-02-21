@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Quintessential&display=swap" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- header -->
+<header id="header">
+    <div class="header__container"> 
+       <nav class="header__navbar">
+       <a href="/"> 
+        <img class="header__logo" src="/img/obec-logo_optimized.png" alt="">
+        </a>
+        
+          <ul class="header__nav-menu">
+             <li class="nav-item">
+                <a href="/" class="nav-link">ÚVOD</a>
+             </li>
+             <li class="nav-item">
+                <a href="#obec" class="nav-link">OBEC</a>
+             </li>
+             <li class="nav-item">
+              <a href="/bohosluzby/" class="nav-link">BOHOSLUŽBY</a>
+           </li>
+             
+             <li class="nav-item">
+                <a href="/aktuality/" class="nav-link">AKTUALITY</a>
+             </li>
+             <li class="nav-item">
+             
+                <a href="/galerie/" class="nav-link">GALERIE</a>
+             </li>
+             <li class="nav-item">
+                <a href="/blog/" class="nav-link">BLOG</a>
+             </li>
+             <li class="nav-item">
+              <a href="#kontakty" class="nav-link">KONTAKTY</a>
+           </li>
+          </ul>
+          <div class="header__hamburger">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+          </div>
+       </nav>
+    </div>
+  </header>
+  
+<section class="gallery__photo">
+    <div class="gallery__name">
+        <h1>Název galerie</h1>
+      </div>
+      
+      <!-- The four columns -->
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg">
+        <div id="imgtext"></div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="/img/chram-bok_optimized.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/img/chram.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/img/otec.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/img/kristus-reva_optimized.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="/img/chram-bok_optimized.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="/img/chram.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="/img/otec.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="/img/kristus-reva_optimized.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+      </div>
+    </section>
+
+   <section class="footer">
+   <div class="scroller">
+  <a class="scroller__button" onclick="scrollWin(0, -1500)">zpět</a>
+</div>
+    <div class="footer__contact">
+      <h2 class="footer__contact__title">KONTAKTY</h2>
+      <p class="contact__text">
+        Chrám Povýšení svatého Kříže v Táboře  <br>
+         <a class="footer__contact__link" href="https://mapy.cz/zakladni?source=addr&id=11321586&ds=1&x=14.6589825&y=49.4152544&z=17">Špitálském náměstí č. 285/1</a> <br>
+        kněz Mgr. et Mgr. Jiří Táborský, DiS. <br>
+        Tel: <a class="footer__contact__link" href="tel:+420 776 374 963 ">+420 776 374 963</a> <br>
+        E-mail: <a class="footer__contact__link" href="mailto:o.jiri.taborsky@gmail.com "> o.jiri.taborsky@gmail.com </a> <br>
+        Facebook: <a class="footer__contact__link" href="https://www.facebook.com/groups/cerkvatabor">https://www.facebook.com/groups/cerkvatabor </a>
+      </p>
+    </div>
+    <div class="footer__links__conteiner">
+  <div class="footer__links">
+  <a href="/" class="footer-link">Úvod</a> 
+  <a href="/o_mne/" class="footer-link">Obec</a>
+  <a href="/sluzby/" class="footer-link">Bohoslužby</a>
+  <a href="/cenik/" class="footer-link">Galerie</a>
+  <a href="/fotogalerie/" class="footer-link">Aktuality</a>
+  <a href="/kontakty/" class="footer-link">Kontakty</a> 
+</div>
+</div>
+<div class="footer__icons">
+<a href="https://www.facebook.com/groups/cerkvatabor"><img class="icon" src="/img/fc.png" alt="facebook"></a> 
+<a href="tel:+420 776 374 963 "><img class="icon" src="/img/mobil.png" alt="mobil"></a>
+<a href="https://mapy.cz/zakladni?source=addr&id=11321586&ds=1&x=14.6589825&y=49.4152544&z=17"><img class="icon" src="/img/map.png" alt="adresa"></a>
+<a href="mailto:o.jiri.taborsky@gmail.com"> <img class="icon" src="/img/mail.png" alt="email"></a>
+ 
+</div>
+<div class="footer__copyright">
+  <p class="copy">Copyright ©2022 JA NI NA</p>
+</div>
+  
+</section>
+
+ <script src="/js/script.js"></script>   
+</body>
+</html>

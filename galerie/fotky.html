@@ -1,0 +1,42 @@
+---
+layout: moje_sablona.njk
+title: fotky
+---
+<section class="gallery__photo">
+    <div class="gallery__name">
+        <h1>Název galerie</h1>
+      </div>
+      
+      <!-- The four columns -->
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg">
+        <div id="imgtext"></div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="/img/chram-bok_optimized.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/img/chram.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/img/otec.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/img/kristus-reva_optimized.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="/img/chram-bok_optimized.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="/img/chram.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="/img/otec.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="/img/kristus-reva_optimized.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+      </div>
+    </section>
