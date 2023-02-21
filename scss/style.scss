@@ -786,15 +786,31 @@ padding: 0;
       align-items: center;
      
     }
+    .galery__photo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      background-position: center;
+      background-size: cover;
+      background: rgb(0, 0, 0, 0.5) url(/img/o_obci.png);
+      background-blend-mode:darken;
+      height: 500px;
+      width:100%;
+      color: $white;
+
+   }
+   .galery__grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin: 100px;
+     gap: 30px;
    
-    .galery__grid{
-      display: grid;
-      grid-auto-flow: row;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 5px;
-      margin: 100px;
-      
-    }
+   }
+ 
+    
     .galery__box{
       width: 100%;
       display: flex;
@@ -822,7 +838,18 @@ padding: 0;
     text-align: center;
     z-index: 1;
    }
-      
+   @media(min-width:800px){
+    .galery__grid{
+      display: grid;
+      grid-auto-flow: row;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      margin: 100px;
+      object-fit: cover;
+     }
+    
+     
+    }
     .scroller{
       display: flex;
       justify-content: center;
