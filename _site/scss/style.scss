@@ -796,15 +796,18 @@ padding: 0;
     .galery {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .galery__grid {
       
       margin: 100px;
       
     }
+    
+    // .galery__grid {
+    //   display: flex;
+    //   flex-direction: column;
+      
+    //   margin: 100px;
+      
+    // }
     
     .galery__box {
       width: 100%;
@@ -820,6 +823,7 @@ padding: 0;
       height: 100%;
       margin: 30px 0;
       object-fit: cover;
+      
     }
     
     .galery__title__photo:hover {
@@ -829,18 +833,19 @@ padding: 0;
     .galery__text {
       padding: 5px;
       width: 100%;
-      margin-top: -70px;
+      margin-top: -80px;
       height: 40px;
       color: white;
       background: rgba(0, 0, 0, 0.5);
       text-align: center;
       z-index: 1;
+      position: relative;
     }
     @media (min-width: 800px) {
-      .galery__grid {
-        display: grid;
+      .galery{
+        flex-direction: row;
         grid-auto-flow: row;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 250px);
         gap: 5px;
         margin: 100px;
       }
@@ -848,7 +853,7 @@ padding: 0;
         margin: 0;
       }
       .galery__text{
-        margin-top: -40px;
+        margin-top: -50px;
       }
       }
     
@@ -870,95 +875,57 @@ padding: 0;
       align-items: center;
     }
     
-    /* The grid: Four equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      object-fit: cover;
-
-    }
+    
+    
     .gallery__name{
       text-align: center;
       margin-top: 100px;
     }
-    
-    /* Style the images inside the grid */
-    .column img {
-      opacity: 0.8; 
-      cursor: pointer;
+    .gallery__grid{
+      display: grid;
+      grid-auto-flow: row;
+      grid-template-columns: 250px;
+      grid-auto-rows: 250px;
+      gap: 5px;
+      margin-bottom: 100px;
+        
+    }
+    .grid__photo{
       width: 100%;
-      object-fit: cover; 
+      height: 100%;
+      margin: 30px 0;
+      object-fit: cover;
+      
     }
-    
-    .column img:hover {
-      transform: scale(1.2);
+    .grid__photo:hover{
+      transform: scale(1.5);
+      transition: 2s;
     }
-    .row{
-      width: 70%;
-
-      margin: 100px;
+   
+    @media (min-width: 550px){
+      .gallery__grid{
+        grid-template-columns: repeat(2, 250px)
+      };
+      .grid__photo:hover{
+        transform: scale(1.2);
+      }
     
-
     }
     @media (min-width: 800px){
-      .row{
-        width: 100%;
-        display: grid;
-        grid-auto-flow: row;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 5px;
-        margin: 100px;
+      .gallery__grid{
+        grid-template-columns: repeat(3, 250px)
+      };
       
+    }
+    @media (min-width: 1200px){
+      .gallery__grid{
+        grid-template-columns: repeat(4, 250px)
+      };
+      .grid__photo:hover{
+        transform: scale(1.7);
+      }
+    }
   
-      }
-      .container{
-        margin-top: 500px;
-      }
-
-    }
-    
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-     
-    }
-    
-    /* The expanding image container */
-   
-      .container {
-       
-        width: 100%;
-        position: absolute;
-        display: none;
-        z-index: 1;
-      }
-    
-    
-    /* Expanding image text */
-    #imgtext {
-      position: absolute;
-      bottom: 15px;
-      left: 15px;
-      color: white;
-      font-size: 20px;
-    }
-    #expandedImg{
-      width:100%
-    }
-    
-    /* Closable button inside the expanded image */
-    .closebtn {
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      color: black;
-      background-color: rgba(245, 238, 238, 0.8);
-      border-radius: 5px;
-      padding: 0 10px;
-      font-size: 35px;
-      cursor: pointer;
-    }
   
     .scroller{
       display: flex;
