@@ -5,6 +5,9 @@ module.exports = function(eleventyConfig) {
   // Zkopírovat css/ to _site/css/
   eleventyConfig.addPassthroughCopy("scss");
   eleventyConfig.addPassthroughCopy("js");
+  // admin složka pro Netlify CMS
+ eleventyConfig.addPassthroughCopy("admin");
+
  
  
   // ...necháme, co už v konfiguraci je, a přidáme:
