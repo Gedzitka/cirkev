@@ -1,5 +1,5 @@
 ---
-layout: moje_sablona.njk
+layout: layouts/sablona__hlavni.njk
 title: galerie
 ---
 
@@ -14,32 +14,7 @@ title: galerie
             <a href="{{fotky.url}}">
         <img class="galery__title__photo" src="/img/{{fotky.data.photo1}}" alt="{{fotky.data.alt}}">
         <p class="galery__text">{{fotky.data.title}}</p></a>
-    </div>
-    <!-- <div class="galery__box">
-        <a class="all" href="{{fotky.url}}">
-        <img class="galery__title__photo" src="/img/{{fotky.data.photo1}}" alt="{{fotky.data.alt}}">
-        <p class="galery__text">{{fotky.data.title}}</p></a>
-    </div>
-        <div class="galery__box">
-        <a class="all" href="{{fotky.url}}">
-        <img class="galery__title__photo" src="/img/{{fotky.data.photo1}}" alt="{{fotky.data.alt}}">
-        <p class="galery__text">{{fotky.data.title}}</p></a>
-    </div> -->
-<!--     
-        <div class="galery__box">
-        <img class="galery__title__photo" src="/img/{{fotky.data.photo4}}.jpg" alt="{{fotky.data.alt}}">
-        <p class="galery__text">{{fotky.data.title}}</p>
-    </div>
-    <div class="galery__box">
-        <img class="galery__title__photo" src="/img/{{fotky.data.photo5}}" alt="{{fotky.data.alt}}">
-        <p class="galery__text">{{fotky.data.title}}</p>
-    </div>
-        <div class="galery__box">
-        <img class="galery__title__photo" src="/img/{{fotky.data.photo6}}" alt="{{fotky.data.alt}}">
-        <p class="galery__text">{{fotky.data.title}}</p>
-    </div> -->
-    
-        
+    </div>    
     </div>
 
 {% endfor %}

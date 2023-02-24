@@ -682,15 +682,7 @@ padding: 0;
           padding: 20px;
           float: right;
         }
-        .clanek{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 30px;
-          align-items: center;
-          margin: 50px;
-    
-    
-        }
+        
       }
     .blog{
    margin-top: 80px;
@@ -716,11 +708,12 @@ padding: 0;
       width: 80%;
       align-items: center;
       margin: 50px;
+      
 
 
     }
     .clanek img{
-      width: 600px;
+      width: 500px;
       max-width: 100%;
       margin-bottom: 30px;
     }
@@ -759,6 +752,22 @@ padding: 0;
       padding: 10px 20px;
       margin-bottom:20px;
       border:  solid 1px $black;
+    }
+
+    @media(min-width:800px){
+      .clanek{
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        gap: 30px;
+        align-items: center;
+        background-color: $primary;
+  
+  
+      }
+      .clanek img{
+        margin-bottom: 0;
+      }
+
     }
     .actual{
       margin-top: 80px;
@@ -816,6 +825,7 @@ padding: 0;
       flex-direction: column;
       align-items: center;
       overflow: hidden;
+     
     }
     
     .galery__title__photo {
@@ -823,11 +833,13 @@ padding: 0;
       height: 100%;
       margin: 30px 0;
       object-fit: cover;
+      box-shadow: $shadow;
+      
       
     }
     
     .galery__title__photo:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
     
     .galery__text {

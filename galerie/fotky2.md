@@ -1,5 +1,5 @@
 ---
-layout: sablona__galerie.njk
+layout: layouts/sablona__galerie.njk
 title: Název galerie
 photo1: bohorodice_optimized.jpg
 photo2: chram.png

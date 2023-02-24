@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Quintessential&display=swap" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+{% include "partials/header.njk" %}
+<article class="article">
+    
+    <h2 class="article__title">{{ title }}
+       
+        </h2>
+        <p class="article__meta">Publikováno {{ page.date.toLocaleString('cs-Cz') }} </p>
+        <div class="article__content">
+            <div class="article__text">
+                <img class="article__img" src="/img/{{ foto }}" alt="{{ alt }}">
+                <p class="article__perex">
+                {{ perex }}
+                    
+                   </p>
+                  {{ content | safe }}
+                 </div>
+                 
+            </div>
+        
+</article>
+
+{% include "partials/contact.njk" %}
+{% include "partials/footer.njk" %}
+
+ <script src="/js/script.js"></script>   
+</body>
+</html>
