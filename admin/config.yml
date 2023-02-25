@@ -24,7 +24,7 @@ collections:
       - {label: "Datum publikace", name: "date", widget: "datetime"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
-      - {label: "Obsah", name: "body", widget: "markdown"}
+      - {label: "Obsah", name: "body", widget: "markdown"} 
   - name: "galerie" 
     label: "Galerie" 
     folder: "galerie" 
