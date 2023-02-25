@@ -14,7 +14,6 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
-
   - name: "aktuality" 
     label: "Aktuality" 
     folder: "aktuality" 
@@ -26,7 +25,6 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
-    
   - name: "galerie" 
     label: "Galerie" 
     folder: "galerie" 
@@ -35,7 +33,6 @@ collections:
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
-     
   - name: "bohosluzby" 
     label: "Bohosluzby" 
     folder: "bohosluzby" 
