@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 #header {
   background-color: white;
   position: fixed;
@@ -533,6 +537,7 @@ body {
 .time__table {
   width: 90%;
   border: solid 2px;
+  margin-bottom: 100px;
 }
 
 .servis__wednesday {
