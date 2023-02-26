@@ -22,6 +22,7 @@ a {
   text-decoration: none;
 }
 
+/* Menu */
 #header {
   background-color: white;
   position: fixed;
@@ -160,13 +161,7 @@ a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
 }
 
-.header_h1 {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  font-weight: "Quintessential";
-}
-
+/* header__photo */
 .header__photo {
   width: 100%;
   height: 100vh;
@@ -176,14 +171,9 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* Slider */
 }
-
-.Slides {
-  display: none;
-}
-
-/* Slideshow container */
-.slideshow__container {
+.header__photo .header__slideshow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,42 +181,31 @@ a {
   height: 200px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-.none__slideshow__container {
+.header__photo .header__slideshow--none {
   display: none;
 }
-
-/* Caption text */
-.slideshow__text {
+.header__photo .slideshow__text {
   color: white;
   font-size: 15px;
   padding: 20px;
   text-align: left;
 }
-
 @media (min-width: 1024px) {
-  .slideshow__container {
+  .header__photo .header__slideshow {
     width: 50%;
   }
-  .slideshow__text {
+  .header__photo .header__slideshow .slideshow__text {
     font-size: 20px;
   }
 }
-.sections {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  padding: 20px;
-}
 
+/* Welcome */
 .welcome {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.welcome__div {
+.welcome .welcome__box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -237,14 +216,12 @@ a {
   background-color: #df8c3b;
   margin-bottom: 100px;
 }
-
-.welcome_text {
+.welcome .box__text {
   text-align: center;
   padding: 10px;
   font-family: "Quintessential", cursive;
 }
-
-.welcome__title {
+.welcome .box__title {
   text-align: center;
 }
 
@@ -256,34 +233,35 @@ a {
   align-items: center;
   margin-bottom: 100px;
 }
-
-.reveal {
-  width: 95%;
-  box-shadow: 0px 5px 10px 0px #aaa;
-  margin: 20px auto;
-  left: 0;
-  top: 100%;
-  overflow: hidden;
-}
-
-.box__photo {
+.boxes .box__photo {
+  box-shadow: 0px 3px 3px 0px #cac6c6;
   display: block;
   max-width: 100%;
   height: auto;
   transition: transform 0.5s;
   overflow: hidden;
 }
-
-.reveal:hover .photo__description {
+.boxes .reveal {
+  width: 90%;
+  margin: 20px auto;
+  left: 0;
+  overflow: hidden;
+  transform: translateY(130px);
+  opacity: 0;
+  transition: all 1s linear;
+}
+.boxes .reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.boxes .reveal:hover .photo__description {
   transform: translateY(0%);
   background-color: rgba(223, 140, 59, 0.5);
 }
-
-.reveal:hover .box__photo {
+.boxes .reveal:hover .box__photo {
   transform: scale(1.1);
 }
-
-.photo__description {
+.boxes .photo__description {
   margin-top: -135%;
   text-align: center;
   color: white;
@@ -292,59 +270,29 @@ a {
   padding: 2px;
   transition: transform 0.5s;
 }
-
-.photo__title {
+.boxes .photo__title {
   margin: 55% auto;
   font-size: 20px;
   width: 100%;
 }
-
 @media (min-width: 500px) {
-  .box__conteiner {
+  .boxes .box__conteiner {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1px;
     row-gap: 1px;
   }
-  .box__photo {
-    flex-basis: 50%;
-  }
 }
-@media (min-width: 1040px) {
-  .box__conteiner {
+@media (min-width: 500px) and (min-width: 1040px) {
+  .boxes .box__conteiner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     row-gap: 2px;
   }
-  .header__logo {
-    width: 30%;
-  }
-}
-.reveal {
-  /* transform: translateY(150px); */
-  transform: translateY(130px);
-  opacity: 0;
-  transition: all 1s linear;
 }
 
-.reveal.active {
-  /* transform: translateY(0px); */
-  transform: translateY(0px);
-  opacity: 1;
-}
-
-.obec__title, .otec__title {
-  margin: 20px;
-}
-
-.about__obec {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-
+/* About */
 .about__title__photo {
   background: rgba(160, 158, 158, 0.546) url(/img/o_obci.png);
   width: 100%;
@@ -357,23 +305,33 @@ a {
   align-items: center;
 }
 
-.title__h2 {
-  font-size: 30px;
-  color: white;
+.about__community {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
-.obec__chram__photo {
+.community__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.community__temple__photo {
   width: 100%;
   margin-top: 200px;
   display: none;
 }
 
-.otec__photo__male {
-  width: 100%;
-  display: none;
+.community__title, .father__title {
+  margin: 20px;
+  text-align: center;
 }
 
-.obec__text {
+.community__text {
   background-color: white;
   width: 95%;
   margin-top: -30px;
@@ -382,7 +340,21 @@ a {
   margin-bottom: 100px;
 }
 
-.otec__text {
+.title__h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.father__photo--small {
+  width: 100%;
+  display: none;
+}
+
+.father__photo--big {
+  width: 100%;
+}
+
+.father__text {
   background-color: #e4e3e3;
   width: 95%;
   margin-top: -30px;
@@ -391,49 +363,33 @@ a {
   margin-bottom: 100px;
 }
 
-.otec__photo__velke {
-  width: 100%;
-}
-
-.obec__conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-}
-
-.obec__title, .otec__title {
-  text-align: center;
-}
-
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .about__title__photo {
     display: none;
   }
   .scroller__button {
     display: none;
   }
-  .obec__chram__photo {
+  .community__temple__photo {
     display: block;
     margin-top: 0;
   }
-  .otec__text {
+  .father__text {
     margin: 0 -30px 0 0;
     width: 50%;
     z-index: 1;
   }
-  .obec__text {
+  .community__text {
     margin: 0 0 0 -30px;
     width: 50%;
   }
-  .obec__conteiner {
+  .community__conteiner {
     flex-direction: row;
   }
-  .otec__photo__male {
+  .father__photo--small {
     display: block;
   }
-  .otec__photo__velke {
+  .father__photo--big {
     display: none;
   }
 }
@@ -445,11 +401,12 @@ a {
     padding: 50px;
     font-size: 40px;
   }
-  .obec__text, .otec__text {
+  .community__text, .father__text {
     height: 400px;
     font-size: 20px;
   }
 }
+/* Servis home page */
 .home__servis {
   width: 100%;
   display: flex;
@@ -461,7 +418,7 @@ a {
   height: 400px;
 }
 
-.home__servis__conteiner {
+.servis__conteiner {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -469,8 +426,7 @@ a {
   align-items: center;
   margin-bottom: 100px;
 }
-
-.home__servis__wednesday {
+.servis__conteiner .servis__wednesday {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -482,34 +438,18 @@ a {
   font-size: 20px;
   margin-top: 100px;
 }
-
-.wednesday__time {
+.servis__conteiner .wednesday__time {
   width: 80%;
   display: none;
 }
-
-.servis {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.table {
+.servis__conteiner .wednesday__bottem {
   border: solid 1px black;
   padding: 10px 30px;
   color: black;
   text-decoration: none;
 }
 
-.servis__conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Servis page */
 .servis__title__photo {
   background: rgba(0, 0, 0, 0.5) url(/img/footer_optimized.jpg);
   background-position: center;
@@ -519,6 +459,14 @@ a {
   width: 100%;
   height: 400px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servis {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -640,7 +588,8 @@ p {
 .clanek {
   width: 80%;
   align-items: center;
-  margin: 50px;
+  margin-bottom: 100px;
+  box-shadow: 0px 3px 3px 0px #cac6c6;
 }
 
 .clanek img {
