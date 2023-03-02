@@ -3,7 +3,7 @@ backend:
   branch: main
 media_folder: "img/uploads"
 collections:
-    - name: "blog"
+  - name: "blog"
     label: "Blog"
     folder: "blog"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -14,7 +14,7 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
-    - name: "aktuality"
+  - name: "aktuality"
     label: "Aktuality"
     folder: "aktuality"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -25,7 +25,7 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
-    - name: "galerie"
+  - name: "galerie"
     label: "Galerie"
     folder: "galerie"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -33,7 +33,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
-    - name: "bohosluzby"
+  - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__bohosluzby.njk"}
