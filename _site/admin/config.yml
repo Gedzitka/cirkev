@@ -9,7 +9,9 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "blog"
+    create:true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "blog"}
       - {label: "Titulek", name: "title", widget: "string"}
@@ -20,7 +22,9 @@ collections:
   - name: "aktuality"
     label: "Aktuality"
     folder: "aktuality"
+    create:true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "aktuality"}
       - {label: "Titulek", name: "title", widget: "string"}
@@ -31,7 +35,9 @@ collections:
   - name: "galerie"
     label: "Galerie"
     folder: "galerie"
+    create:true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__galerie.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
@@ -39,6 +45,9 @@ collections:
   - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"
+    create:true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__bohosluzby.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "bohosluzby"}
       - {label: "Rozpis", name: "foto", widget: "image", required: false }
