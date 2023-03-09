@@ -6,7 +6,7 @@ slug:
   encoding: "ascii"
   clean_accents: true
 collections:
-  - name: "Blog"
+  - name: "glog"
     label: "blog"
     folder: "blog"
     create: true
@@ -20,7 +20,7 @@ collections:
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
 collections:
-  - name: "Aktuality"
+  - name: "aktuality"
     label: "aktuality"
     folder: "aktuality"
     create: true
@@ -34,7 +34,7 @@ collections:
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
 collections:
-  - name: "Galerie"
+  - name: "galerie"
     label: "galerie"
     folder: "galerie"
     create: true
@@ -47,7 +47,7 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}  
   collections:
-  - name: "Bohosluzby"
+  - name: "bohosluzby"
     label: "bohosluzby"
     folder: "bohosluzby"
     create: true
