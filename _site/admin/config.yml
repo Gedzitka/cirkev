@@ -3,14 +3,14 @@ backend:
   branch: main
 media_folder: "img/uploads"
 slug:
-  encoding:"ascii"
+  encoding: "ascii"
   clean_accents: true
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "Blog"
+    label: "blog"
     folder: "blog"
-    create:true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true
+    slug: "{{year}}{{month}}{{day}}_{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "blog"}
@@ -19,11 +19,12 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
-  - name: "aktuality"
-    label: "Aktuality"
+collections:
+  - name: "Aktuality"
+    label: "aktuality"
     folder: "aktuality"
-    create:true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true
+    slug: "{{year}}{{month}}{{day}}_{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "aktuality"}
@@ -32,22 +33,27 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
-  - name: "galerie"
-    label: "Galerie"
+collections:
+  - name: "Galerie"
+    label: "galerie"
     folder: "galerie"
-    create:true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true
+    slug: "{{year}}{{month}}{{day}}_{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__galerie.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
+      - {label: "Datum publikace", name: "date", widget: "datetime"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
-  - name: "bohosluzby"
-    label: "Bohosluzby"
+      - {label: "Perex", name: "perex", widget: "string"}  
+  collections:
+  - name: "Bohosluzby"
+    label: "bohosluzby"
     folder: "bohosluzby"
-    create:true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true
+    slug: "{{year}}{{month}}{{day}}_{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__bohosluzby.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "bohosluzby"}
-      - {label: "Rozpis", name: "foto", widget: "image", required: false }
+      - {label: "Obrázek", name: "foto", widget: "image", required: false }
+
