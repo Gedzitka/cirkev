@@ -19,41 +19,41 @@ collections:
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
-collections:
-  - name: "aktuality"
-    label: "aktuality"
-    folder: "aktuality"
-    create: true
-    slug: "{{year}}{{month}}{{day}}_{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: "aktuality"}
-      - {label: "Titulek", name: "title", widget: "string"}
-      - {label: "Datum publikace", name: "date", widget: "datetime"}
-      - {label: "Obrázek", name: "foto", widget: "image", required: false }
-      - {label: "Perex", name: "perex", widget: "string"}
-      - {label: "Obsah", name: "body", widget: "markdown"}
-collections:
-  - name: "galerie"
-    label: "galerie"
-    folder: "galerie"
-    create: true
-    slug: "{{year}}{{month}}{{day}}_{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
-      - {label: "Titulek", name: "title", widget: "string"}
-      - {label: "Datum publikace", name: "date", widget: "datetime"}
-      - {label: "Obrázek", name: "foto", widget: "image", required: false }
-      - {label: "Perex", name: "perex", widget: "string"}  
-  collections:
-  - name: "bohosluzby"
-    label: "bohosluzby"
-    folder: "bohosluzby"
-    create: true
-    slug: "{{year}}{{month}}{{day}}_{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__bohosluzby.njk"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: "bohosluzby"}
-      - {label: "Obrázek", name: "foto", widget: "image", required: false }
+# collections:
+#   - name: "aktuality"
+#     label: "aktuality"
+#     folder: "aktuality"
+#     create: true
+#     slug: "{{year}}{{month}}{{day}}_{{slug}}"
+#     fields:
+#       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
+#       - {label: "Tags", name: "tags", widget: "hidden", default: "aktuality"}
+#       - {label: "Titulek", name: "title", widget: "string"}
+#       - {label: "Datum publikace", name: "date", widget: "datetime"}
+#       - {label: "Obrázek", name: "foto", widget: "image", required: false }
+#       - {label: "Perex", name: "perex", widget: "string"}
+#       - {label: "Obsah", name: "body", widget: "markdown"}
+# collections:
+#   - name: "galerie"
+#     label: "galerie"
+#     folder: "galerie"
+#     create: true
+#     slug: "{{year}}{{month}}{{day}}_{{slug}}"
+#     fields:
+#       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__blog.njk"}
+#       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
+#       - {label: "Titulek", name: "title", widget: "string"}
+#       - {label: "Datum publikace", name: "date", widget: "datetime"}
+#       - {label: "Obrázek", name: "foto", widget: "image", required: false }
+#       - {label: "Perex", name: "perex", widget: "string"}  
+#   collections:
+#   - name: "bohosluzby"
+#     label: "bohosluzby"
+#     folder: "bohosluzby"
+#     create: true
+#     slug: "{{year}}{{month}}{{day}}_{{slug}}"
+#     fields:
+#       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__bohosluzby.njk"}
+#       - {label: "Tags", name: "tags", widget: "hidden", default: "bohosluzby"}
+#       - {label: "Obrázek", name: "foto", widget: "image", required: false }
 
