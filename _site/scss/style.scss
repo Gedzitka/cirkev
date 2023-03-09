@@ -1,9 +1,8 @@
 
-
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 $black:black;
-$primary:#e4e3e3;
+$primary:#f8f5f5;
 $orang: #df8c3b;
 $white: white;
 $red:#963131;
@@ -819,7 +818,7 @@ a{
     }
     @media (min-width: 800px){
       .gallery__grid{
-        grid-template-columns: repeat(3, 250px)
+        grid-template-columns: repeat(4, 250px)
       };
       
     }
