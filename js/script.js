@@ -41,13 +41,17 @@ hamburger.addEventListener("click",function (){
   )
   
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+  let header=document.getElementById("header")
+  let sticky=header.offsetTop;
   let prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos >= currentScrollPos) {
-      document.getElementById("header").style.display = "block";
+    if (prevScrollpos >= currentScrollPos&& prevScrollpos>=sticky) {
+      header.style.display="block";
+      // document.getElementById("header").style.display = "block";
     } else {
-      document.getElementById("header").style.display = "none";
+      header.style.display="none";
+      // document.getElementById("header").style.display = "none";
     }
     prevScrollpos = currentScrollPos; 
   }
