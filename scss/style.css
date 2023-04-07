@@ -210,11 +210,12 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 70%;
-  margin-top: -30px;
   background-color: #df8c3b;
+  width: 100%;
   margin-bottom: 100px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%);
+  height: 200px;
 }
 .welcome .box__text {
   text-align: center;
@@ -317,7 +318,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 .community__temple__photo {
@@ -334,10 +334,8 @@ a {
 .community__text {
   background-color: white;
   width: 95%;
-  margin-top: -30px;
   text-align: justify;
   padding: 20px;
-  margin-bottom: 100px;
 }
 
 .title__h2 {
@@ -356,11 +354,8 @@ a {
 
 .father__text {
   background-color: #f8f5f5;
-  width: 95%;
-  margin-top: -30px;
   text-align: justify;
   padding: 20px;
-  margin-bottom: 100px;
 }
 
 @media (min-width: 900px) {
@@ -589,11 +584,9 @@ p {
   width: 80%;
   align-items: center;
   margin-bottom: 100px;
-  box-shadow: 0px 3px 3px 0px #cac6c6;
 }
 
 .clanek img {
-  width: 500px;
   max-width: 100%;
   margin-bottom: 30px;
 }

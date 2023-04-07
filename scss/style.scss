@@ -234,11 +234,11 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 70%;
-    margin-top: -30px;
-    background-color: $orang;
+    background-color:$orang ;
+    width: 100%;
     margin-bottom: $specer;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%);
+    height: 200px;
 
   }
       
@@ -360,7 +360,6 @@ a{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-bottom:$specer ;
     } 
    
     .community__temple__photo{
@@ -375,10 +374,10 @@ a{
     .community__text{
       background-color: $white;
       width: 95%;
-      margin-top: -30px;
+  
       text-align: justify;
       padding: 20px;
-      margin-bottom: $specer;
+     
       
     }
     .title__h2{
@@ -395,11 +394,9 @@ a{
     }
     .father__text{
       background-color: $primary;
-      width: 95%;
-      margin-top: -30px;
       text-align: justify;
       padding: 20px;
-      margin-bottom: $specer;
+
     }
     @media(min-width:900px){
       .about__title__photo{
@@ -622,10 +619,8 @@ a{
       width: 80%;
       align-items: center;
       margin-bottom: $specer;
-      box-shadow: $shadow;
     }
     .clanek img{
-      width: 500px;
       max-width: 100%;
       margin-bottom: 30px;
     }
