@@ -333,9 +333,8 @@ a {
 
 .community__text {
   background-color: white;
-  width: 95%;
   text-align: justify;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .title__h2 {
@@ -350,12 +349,13 @@ a {
 
 .father__photo--big {
   width: 100%;
+  margin-bottom: -5px;
 }
 
 .father__text {
   background-color: #f8f5f5;
   text-align: justify;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 @media (min-width: 900px) {
@@ -948,8 +948,7 @@ p {
 }
 
 .map {
-  margin: 0;
-  padding: 0;
+  margin-bottom: -5px;
 }
 
 @media (min-width: 800px) {

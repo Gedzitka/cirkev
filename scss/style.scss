@@ -373,10 +373,8 @@ a{
     }
     .community__text{
       background-color: $white;
-      width: 95%;
-  
       text-align: justify;
-      padding: 20px;
+      padding: 50px 20px;
      
       
     }
@@ -391,11 +389,12 @@ a{
     }
     .father__photo--big{
       width: 100%;
+      margin-bottom: -5px;
     }
     .father__text{
       background-color: $primary;
       text-align: justify;
-      padding: 20px;
+      padding: 50px 20px;
 
     }
     @media(min-width:900px){
@@ -992,8 +991,8 @@ margin-bottom: 0;
  }
 
  .map{
-  margin: 0;
-  padding: 0;
+  margin-bottom: -5px;
+
 
  }
  
