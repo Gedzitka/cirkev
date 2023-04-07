@@ -49,7 +49,7 @@ hamburger.addEventListener("click",function (){
     } else {
       document.getElementById("header").style.top = "-200px";
     }
-    prevScrollpos = currentScrollPos;
+    prevScrollpos = currentScrollPos; 
   }
 
 
