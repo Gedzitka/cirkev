@@ -46,7 +46,7 @@ hamburger.addEventListener("click",function (){
   let prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos >= currentScrollPos) {
+    if (prevScrollpos > currentScrollPos) {
       header.style.display="block";
       // document.getElementById("header").style.display = "block";
     } else {
