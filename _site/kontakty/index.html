@@ -1,3 +1,6 @@
+
+    
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Quintessential&display=swap" rel="stylesheet">
-   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/scss/style.css">
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
     <title>Document</title>
 </head>
-<body>
+
+<body> 
+
     
 <!-- header -->
 <header id="header">
@@ -29,12 +36,18 @@
              <li class="nav-item">
               <a href="/bohosluzby/" class="nav-link">BOHOSLUŽBY</a>
            </li>
-             <li class="nav-item">
-                <a href="/aktuality/" class="nav-link">GALERIE</a>
-             </li>
+             
              <li class="nav-item">
                 <a href="/aktuality/" class="nav-link">AKTUALITY</a>
              </li>
+             <li class="nav-item">
+                <a href="/blog/" class="nav-link">BLOG</a>
+             </li>
+             <li class="nav-item">
+             
+                <a href="/galerie/" class="nav-link">GALERIE</a>
+             </li>
+            
              <li class="nav-item">
               <a href="/kontakty/" class="nav-link">KONTAKTY</a>
            </li>
@@ -46,15 +59,18 @@
           </div>
        </nav>
     </div>
-  </header>
-  
-<section class="contact">
-    <div class="contact__photo">
-        <h2 class="contact__title"> KONTAKTY</h2>
-    </div>
+  </header>  
+<div class="contact__photo">
+    <h1>KONTAKTY</h1>
+</div>
+<section class="contact" id="kontakty">
     <div class="contact__conteiner">
-        
+      <div class="contact__img">
+        <img class="chram_bez" src="/img/chram_bez.png" alt="chram">
+      </div>
+    
     <div class="contact__contact">
+      
         <h2 class="contact__contact__title">Kontaktujte nás</h2>
         <p class="contact__contact__text">
           Chrám Povýšení svatého Kříže v Táboře  <br>
@@ -65,49 +81,27 @@
           Facebook: <a class="contact__contact__link" href="https://www.facebook.com/groups/cerkvatabor">https://www.facebook.com/groups/cerkvatabor </a>
         </p>
       </div>
-      <div class="contact__img">
-        <img class="chram_bez" src="/img/chram_bez.png" alt="chram">
-      </div>
     </div>
-    <!-- <div class="none__slideshow__container">
+     
+  </section>
+  <section class="map">
+    <iframe src="https://frame.mapy.cz/s/kusujeruzu" width="100%" height="450" style= "border:0; border:none" allowfullscreen="" loading="lazy" ></iframe>
+    </section> 
 
-        <div class="mySlides fade">
-         
-          
-          <div class="slideshow__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ratione laboriosam eaque molestiae culpa, expedita explicabo officiis ducimus, officia enim placeat facere modi aliquam autem consectetur facilis! Dolore, vitae eveniet!</div>
-        </div>
-        
-        <div class="mySlides fade">
-          
-          
-          <div class="slideshow__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore tempora reiciendis animi aliquid laudantium consequatur maxime ipsa sed voluptate, nemo, provident dolore cupiditate et veniam vel error sapiente neque atque.</div>
-        </div>
-        
-        <div class="mySlides fade">
-          
-          
-          <div class="slideshow__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores minima libero, enim vero minus perspiciatis voluptatem rerum amet maiores ipsam debitis neque, illo quas. Reprehenderit ipsam alias accusamus rem.
-  
-  
-  
-  
-  
-           </div>
-           </div> -->
-        <!-- </div> -->
-</section>
-
-   <section class="footer">
+   
+<section class="footer">
    <div class="scroller">
   <a class="scroller__button" onclick="scrollWin(0, -1500)">zpět</a>
 </div>
-    <div class="footer__links__conteiner">
+    
+   <div class="footer__links__conteiner">
   <div class="footer__links">
   <a href="/" class="footer-link">Úvod</a> 
-  <a href="/o_mne/" class="footer-link">Obec</a>
-  <a href="/sluzby/" class="footer-link">Bohoslužby</a>
-  <a href="/cenik/" class="footer-link">Galerie</a>
-  <a href="/fotogalerie/" class="footer-link">Aktuality</a>
+  <a href="/obec/" class="footer-link">Obec</a>
+  <a href="/bohosluzby/" class="footer-link">Bohoslužby</a>
+  <a href="/aktuality/" class="footer-link">Aktuality</a>
+  <a href="/blog/" class="footer-link">Blog</a>
+  <a href="/galerie/" class="footer-link">Galerie</a>
   <a href="/kontakty/" class="footer-link">Kontakty</a> 
 </div>
 </div>
@@ -124,6 +118,20 @@
   
 </section>
 
+
+
  <script src="/js/script.js"></script>   
+ <script src="/js/slider.js"></script> 
+ <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>

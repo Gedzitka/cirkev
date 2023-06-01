@@ -28,17 +28,9 @@ hamburger.addEventListener("click",function (){
     })
   
   })
+
   
-  
-  function scrollWin(x, y) {
-    window.scrollBy(x, y);
-  }
-  $(function(){
-    $(".wednesday__time").show(2000);
-  
-  
-  }
-  )
+
   
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
   let header=document.getElementById("header")
@@ -60,13 +52,13 @@ hamburger.addEventListener("click",function (){
 
 
 
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
+// function myFunction(imgs) {
+//   var expandImg = document.getElementById("expandedImg");
+//   var imgText = document.getElementById("imgtext");
+//   expandImg.src = imgs.src;
+//   imgText.innerHTML = imgs.alt;
+//   expandImg.parentElement.style.display = "block";
+// }
 
 
   
