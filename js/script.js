@@ -47,7 +47,7 @@ hamburger.addEventListener("click",function (){
   // let topNav=window.scrollBy(0,0);
   window.onscroll = function() {
     let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos && currentScrollPos==sticky) {
+    if (prevScrollpos > currentScrollPos || currentScrollPos==sticky) {
       header.style.display="block";
       // document.getElementById("header").style.display = "block";
     } else {
