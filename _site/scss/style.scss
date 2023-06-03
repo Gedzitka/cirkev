@@ -565,7 +565,7 @@ a{
     }
     
 .animation{
-  transform: scale(14px);
+  transform: scale(15px);
   /* transform: translateX(-400px); */
   opacity: 0;
   transition: all 2s linear;
@@ -576,7 +576,6 @@ a{
   /* transform: translateX(0px); */
   opacity: 1;
 }
-
     @media(min-width:800px){
     .wednesday__time{
       font-size: 22px;

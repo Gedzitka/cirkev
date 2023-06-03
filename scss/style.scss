@@ -564,15 +564,15 @@ a{
      
     }
     
-.animation-left{
-  transform: translateY(150px);
+.animation{
+  transform: scale(15px);
   /* transform: translateX(-400px); */
   opacity: 0;
   transition: all 2s linear;
 }
 
-.animation-left.active{
-  transform: translateY(0px);
+.animation.active{
+  transform: scale(0px);
   /* transform: translateX(0px); */
   opacity: 1;
 }

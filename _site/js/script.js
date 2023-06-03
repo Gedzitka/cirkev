@@ -29,7 +29,7 @@ hamburger.addEventListener("click",function (){
   
   })
   window.addEventListener("scroll", function(){
-    const an  = document.querySelectorAll(".reveal", ".reveal__welcome")
+    const reveals  = document.querySelectorAll(".reveal", ".reveal__welcome")
         reveals.forEach(function(oneBlok){
             let windowHeight = window.innerHeight
             let revealTop = oneBlok.getBoundingClientRect().top
@@ -61,7 +61,7 @@ hamburger.addEventListener("click",function (){
     })
  
  })
-
+  
 
   
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
