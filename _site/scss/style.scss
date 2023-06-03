@@ -564,18 +564,19 @@ a{
      
     }
     
-.animation-left{
-  transform: translateY(150px);
+.animation{
+  transform: scale(14px);
   /* transform: translateX(-400px); */
   opacity: 0;
-  transition: all 1s linear;
+  transition: all 2s linear;
 }
 
-.animation-left.active{
-  transform: translateY(0px);
+.animation.active{
+  transform: scale(0px);
   /* transform: translateX(0px); */
   opacity: 1;
 }
+
     @media(min-width:800px){
     .wednesday__time{
       font-size: 22px;

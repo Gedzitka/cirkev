@@ -46,12 +46,12 @@ hamburger.addEventListener("click",function (){
   
   })
   window.addEventListener ("scroll",function(){
-    const animationLeft=document.querySelectorAll (".animation-left")
-    animationLeft.forEach(function(oneBlok){
+    const animation=document.querySelectorAll (".animation")
+    animation.forEach(function(oneBlok){
      let windowHeight=window.innerHeight
-     let animationLeftTop=oneBlok.getBoundingClientRect().top
-     const animationLeftPoint=100
-     if (animationLeftTop<windowHeight-animationLeftPoint){
+     let animationTop=oneBlok.getBoundingClientRect().top
+     const animationPoint=100
+     if (animationTop<windowHeight-animationPoint){
          oneBlok.classList.add("active")
  
      }else{
@@ -61,7 +61,7 @@ hamburger.addEventListener("click",function (){
     })
  
  })
-  
+
 
   
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
