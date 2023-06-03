@@ -64,18 +64,18 @@ a{
        width: 30%;
        margin-top:10px ;
        margin-bottom: -50px;
-       animation-name: logo;
-       animation-duration: 2s;
+      //  animation-name: logo;
+      //  animation-duration: 2s;
       
     
      }  
-     @keyframes logo {
-      from{margin-bottom: 0;
-      }
-      to{margin-bottom: -50px;
-      }
+    //  @keyframes logo {
+    //   from{margin-bottom: 0;
+    //   }
+    //   to{margin-bottom: -50px;
+    //   }
       
-     }
+    //  }
   
      .header__nav-menu{
        display: flex;
@@ -561,8 +561,21 @@ a{
     }
     .wednesday__time{
       width: 80%;
-      display: none;
+     
     }
+    
+.animation-left{
+  transform: translateY(150px);
+  /* transform: translateX(-400px); */
+  opacity: 0;
+  transition: all 2s linear;
+}
+
+.animation-left.active{
+  transform: translateY(0px);
+  /* transform: translateX(0px); */
+  opacity: 1;
+}
     @media(min-width:800px){
     .wednesday__time{
       font-size: 22px;

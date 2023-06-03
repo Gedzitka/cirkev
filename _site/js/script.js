@@ -28,7 +28,39 @@ hamburger.addEventListener("click",function (){
     })
   
   })
-
+  window.addEventListener("scroll", function(){
+    const an  = document.querySelectorAll(".reveal", ".reveal__welcome")
+        reveals.forEach(function(oneBlok){
+            let windowHeight = window.innerHeight
+            let revealTop = oneBlok.getBoundingClientRect().top
+            const revealPoint = 50
+     
+            if (revealTop < windowHeight - revealPoint) {
+                oneBlok.classList.add("active")
+            } else {
+                oneBlok.classList.remove("active")
+            }
+    
+       
+    })
+  
+  })
+  window.addEventListener ("scroll",function(){
+    const animationLeft=document.querySelectorAll (".animation-left")
+    animationLeft.forEach(function(oneBlok){
+     let windowHeight=window.innerHeight
+     let animationLeftTop=oneBlok.getBoundingClientRect().top
+     const animationLeftPoint=100
+     if (animationLeftTop<windowHeight-animationLeftPoint){
+         oneBlok.classList.add("active")
+ 
+     }else{
+         oneBlok.classList.remove("active")
+ 
+     }
+    })
+ 
+ })
   
 
   

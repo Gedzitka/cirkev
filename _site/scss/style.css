@@ -62,18 +62,8 @@ a {
   width: 30%;
   margin-top: 10px;
   margin-bottom: -50px;
-  animation-name: logo;
-  animation-duration: 2s;
 }
 
-@keyframes logo {
-  from {
-    margin-bottom: 0;
-  }
-  to {
-    margin-bottom: -50px;
-  }
-}
 .header__nav-menu {
   display: flex;
   justify-content: space-between;
@@ -516,7 +506,19 @@ a {
 
 .wednesday__time {
   width: 80%;
+}
 
+.animation-left {
+  transform: translateY(150px);
+  /* transform: translateX(-400px); */
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.animation-left.active {
+  transform: translateY(0px);
+  /* transform: translateX(0px); */
+  opacity: 1;
 }
 
 @media (min-width: 800px) {
