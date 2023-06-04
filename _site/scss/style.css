@@ -518,6 +518,7 @@ a {
   /* transform: translateX(-400px); */
   opacity: 0;
   transition: all 2s linear;
+  
 }
 
 .animation.active {
