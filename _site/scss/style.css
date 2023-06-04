@@ -342,6 +342,7 @@ a {
   background-color: white;
   text-align: justify;
   padding: 50px 20px;
+  font-family: "Crimson Text", serif;
 }
 
 .title__h2 {
@@ -363,6 +364,7 @@ a {
   background-color: #f8f5f5;
   text-align: justify;
   padding: 50px 20px;
+  font-family: "Crimson Text", serif;
 }
 
 @media (min-width: 900px) {
@@ -512,14 +514,14 @@ a {
 }
 
 .animation {
-  transform: scale(15px);
+  transform: scale(1.1);
   /* transform: translateX(-400px); */
   opacity: 0;
   transition: all 2s linear;
 }
 
 .animation.active {
-  transform: scale(0px);
+  transform: scale(1);
   /* transform: translateX(0px); */
   opacity: 1;
 }
@@ -554,8 +556,9 @@ a {
 }
 
 .article__text {
-  padding: 20px;
   text-align: justify;
+  font-family: "Crimson Text", serif;
+  padding: 40px;
 }
 
 .article__perex {
@@ -597,7 +600,6 @@ p {
   background-image: url(/img/kontakty.png);
   height: 400px;
   background-position: center;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -624,7 +626,6 @@ p {
   background: rgba(41, 39, 39, 0.5) url(/img/kontakty.png);
   background-position: center;
   background-blend-mode: darken;
-  transform: scale(1.1, 1.1);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -667,9 +668,6 @@ p {
   }
   .clanek img {
     margin-bottom: 0;
-  }
-  .home__blog {
-    background-size: 100% 100vh;
   }
 }
 .actual {
