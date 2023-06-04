@@ -10,6 +10,7 @@ $shadow: 0px 3px 3px 0px #cac6c6;
 $shadow-dack:0px 5px 10px 0px rgb(48, 45, 45);
 $font-base:'Quintessential';
 $font-second: 'Crimson Text', serif;
+$padding: 40px;
 $specer:100px;
 
 
@@ -393,6 +394,7 @@ a{
       text-align: justify;
       padding: 50px 20px;
       font-family: $font-second;
+
      
       
     }
@@ -609,9 +611,9 @@ a{
 
     }
     .article__text{
-      padding: 20px;
       text-align: justify;
       font-family: $font-second;
+      padding: $padding;
     }
     .article__perex{
       font-weight: bold;
