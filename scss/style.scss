@@ -363,12 +363,12 @@ a{
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      display: flex;
       justify-content: center;
       align-items: center;
       color: $white;
       font-size: 20px;
       margin-bottom: $specer;
+      display: none;
 
     }
 
@@ -417,6 +417,9 @@ a{
     @media(min-width:900px){
       .about__title__photo{
         display: none;
+      }
+      .community__photo{
+        display: flex;
       }
       .scroller__button{
         display: none;
