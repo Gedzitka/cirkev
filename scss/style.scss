@@ -9,7 +9,7 @@ $red:#963131;
 $shadow: 0px 3px 3px 0px #cac6c6;
 $shadow-dack:0px 5px 10px 0px rgb(48, 45, 45);
 $font-base:'Quintessential';
-$font-second:'Poppins', sans-serif;
+$font-second: 'Crimson Text', serif;
 $specer:100px;
 
 
@@ -392,6 +392,7 @@ a{
       background-color: $white;
       text-align: justify;
       padding: 50px 20px;
+      font-family: $font-second;
      
       
     }
@@ -412,6 +413,7 @@ a{
       background-color: $primary;
       text-align: justify;
       padding: 50px 20px;
+      font-family: $font-second;
 
     }
     @media(min-width:900px){
@@ -609,6 +611,7 @@ a{
     .article__text{
       padding: 20px;
       text-align: justify;
+      font-family: $font-second;
     }
     .article__perex{
       font-weight: bold;
