@@ -512,14 +512,14 @@ a {
 }
 
 .animation {
-  transform: scale(15px);
+  transform: scale(1.1);
   /* transform: translateX(-400px); */
   opacity: 0;
   transition: all 2s linear;
 }
 
 .animation.active {
-  transform: scale(0px);
+  transform: scale(1);
   /* transform: translateX(0px); */
   opacity: 1;
 }

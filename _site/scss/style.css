@@ -342,7 +342,6 @@ a {
   background-color: white;
   text-align: justify;
   padding: 50px 20px;
-  font-family: "Crimson Text", serif;
 }
 
 .title__h2 {
@@ -364,7 +363,6 @@ a {
   background-color: #f8f5f5;
   text-align: justify;
   padding: 50px 20px;
-  font-family: "Crimson Text", serif;
 }
 
 @media (min-width: 900px) {
@@ -518,7 +516,6 @@ a {
   /* transform: translateX(-400px); */
   opacity: 0;
   transition: all 2s linear;
-  
 }
 
 .animation.active {
@@ -557,9 +554,8 @@ a {
 }
 
 .article__text {
+  padding: 20px;
   text-align: justify;
-  font-family: "Crimson Text", serif;
-  padding: 40px;
 }
 
 .article__perex {
