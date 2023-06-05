@@ -374,9 +374,6 @@ a {
   .community__photo {
     display: flex;
   }
-  .scroller__button {
-    display: none;
-  }
   .community__temple__photo {
     display: block;
     margin-top: 0;
@@ -814,26 +811,6 @@ p {
     transform: scale(1.7);
   }
 }
-.scroller {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: -10px;
-}
-
-.scroller__button {
-  margin-top: 20px;
-  z-index: 1;
-  color: black;
-  padding: 10px 20px;
-  border: 1px solid black;
-  margin-top: 0;
-}
-
-.scroller__button:hover {
-  color: #963131;
-}
-
 .footer__contact {
   text-align: left;
   padding: 20px;
