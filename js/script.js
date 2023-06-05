@@ -45,7 +45,7 @@ hamburger.addEventListener("click",function (){
   
   })
   window.addEventListener("scroll", function(){
-    const reveals  = document.querySelectorAll(".reveal", ".reveal__welcome")
+    const reveals  = document.querySelectorAll(".reveal")
         reveals.forEach(function(oneBlok){
             let windowHeight = window.innerHeight
             let revealTop = oneBlok.getBoundingClientRect().top

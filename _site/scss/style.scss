@@ -586,6 +586,16 @@ a{
   /* transform: translateX(0px); */
   opacity: 1;
 }
+.animationTranslate{
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: all 2s linear;
+}
+.animationTranslate.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
     @media(min-width:800px){
     .wednesday__time{
       font-size: 22px;

@@ -27,25 +27,25 @@ hamburger.addEventListener("click",function (){
  
 
    /* animation */
-  window.addEventListener("scroll", function(){
-    const reveals  = document.querySelectorAll(".reveal", ".reveal__welcome")
-        reveals.forEach(function(oneBlok){
-            let windowHeight = window.innerHeight
-            let revealTop = oneBlok.getBoundingClientRect().top
-            const revealPoint = 50
+  // window.addEventListener("scroll", function(){
+  //   const reveals  = document.querySelectorAll(".reveal", ".reveal__welcome")
+  //       reveals.forEach(function(oneBlok){
+  //           let windowHeight = window.innerHeight
+  //           let revealTop = oneBlok.getBoundingClientRect().top
+  //           const revealPoint = 50
      
-            if (revealTop < windowHeight - revealPoint) {
-                oneBlok.classList.add("active")
-            } else {
-                oneBlok.classList.remove("active")
-            }
+  //           if (revealTop < windowHeight - revealPoint) {
+  //               oneBlok.classList.add("active")
+  //           } else {
+  //               oneBlok.classList.remove("active")
+  //           }
     
        
-    })
+  //   })
   
-  })
+  // })
   window.addEventListener("scroll", function(){
-    const reveals  = document.querySelectorAll(".reveal", ".reveal__welcome")
+    const reveals  = document.querySelectorAll(".reveal")
         reveals.forEach(function(oneBlok){
             let windowHeight = window.innerHeight
             let revealTop = oneBlok.getBoundingClientRect().top
@@ -77,6 +77,22 @@ hamburger.addEventListener("click",function (){
     })
  
  })
+ window.addEventListener ("scroll",function(){
+  const animationTran=document.querySelectorAll (".animationTranslate")
+  animationTran.forEach(function(oneBlok){
+   let windowHeight=window.innerHeight
+   let animationTranTop=oneBlok.getBoundingClientRect().top
+   const animationTranPoint=100
+   if (animationTranTop<windowHeight-animationTranPoint){
+       oneBlok.classList.add("active")
+
+   }else{
+       oneBlok.classList.remove("active")
+
+   }
+  })
+
+})
  
 
 
