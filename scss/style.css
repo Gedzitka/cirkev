@@ -457,7 +457,7 @@ a {
 
 /* Servis page */
 .servis__title__photo {
-  background: rgba(0, 0, 0, 0.5) url(/img/footer_optimized.jpg);
+  background: rgba(0, 0, 0, 0.5) url(/img/servis.jpg);
   background-position: center;
   background-blend-mode: darken;
   background-size: cover;
