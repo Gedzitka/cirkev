@@ -3,7 +3,7 @@ layout: layouts/sablona__blog.njk
 tags: blog
 title: Proč a jak mlčí Církev o Bohorodičce?
 date: 2023-08-22T13:11:51.570Z
-foto: /img/uploads/bohorodice_optimized.jpg
+foto: /img/uploads/bohorodice-papir.jpg
 perex: Archimandrita Alexij (Ržancev) ve své práci o Přeblahoslovené Panně Matce
   Pána našeho Ježíše Krista říká, že rozkrytí dogmatického učení Sv. Církve o
   Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve Sv.
