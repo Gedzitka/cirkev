@@ -1,10 +1,11 @@
 ---
 layout: layouts/sablona__blog.njk
-title: sv.Gorazd 
-perex: Toho, Bůh dá, nebude, aby Kristův kněz z boje utíkal ...
-foto: sv_gorazd.jpg
-alt: ikona sv.Gorazd 
 tags: blog
+title: sv.Gorazd
+date: 2023-08-22T20:09:51.353Z
+foto: /img/uploads/sv_gorazd.jpg
+perex: Toho, Bůh dá, nebude, aby Kristův kněz z boje utíkal ...
+alt: ikona sv.Gorazd
 ---
 
                     
