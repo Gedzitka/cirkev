@@ -1,0 +1,36 @@
+---
+layout: layouts/sablona__blog.njk
+tags: blog
+title: Proč a jak mlčí Církev o Bohorodičce?
+date: 2023-08-22T13:11:51.570Z
+foto: /img/uploads/bohorodice_optimized.jpg
+perex: Archimandrita Alexij (Ržancev) ve své práci o Přeblahoslovené Panně Matce
+  Pána našeho Ježíše Krista říká, že rozkrytí dogmatického učení Sv. Církve o
+  Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve Sv.
+  Písmu) je pro nás obecně důležité v souvislosti s vírou v Jednorozeného Božího
+  Syna, který se vtělil pro naši spásu. říká, že rozkrytí dogmatického učení Sv.
+  Církve o Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve
+  Sv. Písmu) je pro nás obecně důležité v souvislosti s vírou v Jednorozeného
+  Božího Syna, který se vtělil pro naši spásu.
+---
+<!--StartFragment-->
+
+Archimandrita Alexij (Ržancev) ve své práci o Přeblahoslovené Panně Matce Pána našeho Ježíše Krista říká, že rozkrytí dogmatického učení Sv. Církve o Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve Sv. Písmu) je pro nás obecně důležité v souvislosti s vírou v Jednorozeného Božího Syna, který se vtělil pro naši spásu. Avšak, jak upozorňuje protojerej Alexij Knjazěv ve své práci Veliké znamení Království nebeského a jeho příchodu v síle.\
+V Evangeliju Ježíšova Matka figuruje jako veliká evangelijní mlčenlivost (Евангельская Молчальница), která pokorně kráčí za svým božským Synem. Pravoslavná Církev tuto pravdu velmi hluboko procítila, a proto kromě efezského dogmatu, tedy dogmatu, které je ve své podstatě christologické, nevyjádřila své vyznání o Boží Matce v žádné jiné formulaci dogmatického rázu, ale svěřila toto tajemství niternému prožívání v církevní modlitbě. Veliký pravoslavný myslitel Vladimír Lossky ve svém díle Všesvatá si bere v tomto kontextu na pomoc Basila Velikého a říká, že skutečně nemá být zjevováno v písemné podobě učení o věcech, které nemají být odhaleny těm, kteří nejsou zasvěceni do tajemství, a proto i určitá zamlženost, na niž narážíme v Písmu, je také určitým druhem mlčení, aby se zabránilo snadnému pochopení smyslu učení a lépe se prospělo čtenářům, hledajícím Boha. A vladyka Atanasije Jevtič ve své práci Učení o Přesvaté Bohorodičce u sv. Jana Damašského mluví o tom, že sv. Jan, pokud mluví o Bohorodičce, tak činí tak vždy v rámci christologie.\
+Jan Damašský, jak rovněž upozorňuje vladyka Atanasije, nemá žádné zvláštní mariologie nebo antropologické systémy, v jejichž centru by stála osoba Přečisté Panny. Vladyka Atanasije tak ve své práci postupně přivádí, respektive vrací k myšlence, že čest, kterou vzdáváme Bohorodičce, vychází k Synu, který se přes ni vtělil. Ale nejen čest, nýbrž i vše ostatní. A především správná víra (ορθο-δοξία) a zbožné klanění se (προσκύνησις), jehož středobodem je veliké tajemství zbožnosti, jak říká Ap. Pavel Timetojovi, neboť veškeré tajemství Přesvaté Bohorodičky spočívá v tajemství Krista, které je ze všech tajemství a tajin nejnovější a vlastně jedinou novou pod sluncem.\
+\
+Podívejme se na liturgické hymny, tzv. tropary, protože tropary jsou v podstatě nejdůležitější a nejvíce frekventované liturgické hymny, které jsou jakýmsi resumé příslušného svátku. Existují ještě i tvz. kondaky, ale jak upozorňuje prof. Skaballanovič, tropar se věnuje spíše vnitřnímu významu svátku než kondak. Pro tuto chvíli si dovolíme udělat náš osobní pracovní překlad těchto textů pro jejich přiblížení k moderní češtině.\
+\
+Tropar Narození Bohorodičky krátce zobrazuje všechny významy Narození Přesv. Bohorodičky pro svět. Tato událost přinesla radost vesmíru tím, že z Přesv. Bohorodičky zazařilo nad světem nové slunce, a sice Slunce Spravedlnosti Kristus, který zničil prokletí za hřích a s tím spojenou smrt a daroval tak požehnání a život. Nelze snad ještě obecněji a bezprostředněji vyjádřit to dobro, které přináší Narození Přesv. Bohorodičky. Kristus je nazván Slunce Spravedlnosti možná v souvislosti s troparem Narození Krista: "Tvé narození, Bohorodičko Panno, zvěstovalo radost celému vesmíru, neboť z Tebe zazářilo Slunce Spravedlnosti - Kristus Bůh náš, který zničil kletbu. On dal požehnání, odstranil smrt a daroval věčný život.\
+\
+Tropar Zvěstování poukazuje nám na klíčovost tohoto momentu pro veškerou teologii, protože základem celé teologie, tedy výroků o Bohu je Boží jméno Ježíš a právě v této chvíli začíná být stvořitel přítomen na zemi už nejen jako stvořitel, ale i ontologicky a bezprostředně jako člověk, respektive jako Bohočlověk, protože při svém vtělení, i když se stal plně člověk, zůstal rovněž plně Bůh. Je to ostatně událost, která se zobrazuje na královských dveřích, nebo přímo nad samotným oltářem. Tento tropar rovněž obsahuje výzvu k zapojení se k této radosti, abychom i my vzývali spolu s Archandělem: "Raduj se, Bohorodičko!": "Dnes je počátek naší spásy a zjevuje se tajemství, které bylo od věků skryté. Boží Syn se stává Synem Panny a Gabriel zvěstuje milost, a proto i my s ním zazpíváme Bohorodičkce: "Raduj se, Milostiplná! Pán s Tebou!"\
+\
+Tropar Uvedení do Chrámu Přesvaté Bohorodičky poukazuje na to, že její uvedení do chrámu bylo jakými její zjevením světu podobně, jak se zjevil světu Kristus při svém křtu v Jordáně. Uvedení do chrámu bylo Bohorodiččino kázání a zvěstování blížícího se Bohočlověka Krista, který vrátí lidem Boží požehnání a stane se její spásou, naplněním plánu Stvořitele ohledně lidstva. Uvedení do chrámu Přesv. Bohorodičky ještě více než její Narození přivedlo lidi k Narození Krista. A také podle času, který tento svátek v církevním roce má, Uvedení už nechává velmi silně zavanout Kristovu Narození, a proto snad i tropar Uvedení v nemenší míře je věnován i Kristovu Narození: "Dnes je náznak Božího zalíbení a předběžné zvěstování lidské spásy: v chrámu Božím otevřeně se objevuje Panna a předznamenává všem Krista. Jí i my velmi hlasitě zvoláme: raduj se, naplnění Stvořitelova předurčení!"\
+\
+Tropar Zesnutí se snaží odkrýt samotnou podstatu události a činí to tak, že dává jej do souvislosti s největší událostí v životě Bohorodičky, tedy s Narozením Ježíše Krista, a proto tropar nachází soulad mezi Narozením Krista a jejím Zesnutím, protože podle textu troparu obě dvě události překračují hranice přirozenosti, a tak první událost determinuje druhou: když se stala Matkou Života, tak nemohla umřít ve vlastním smyslu tohoto slova. Jen mohl přejít od tohoto iluzorního a neplodného života do života skutečného. A tak i tato událost získává pro nás následující význam: na přímluvy Bohorodičky naše duše se zbavují smrti: "Při porodu zachovala sis panenství, při svém zesnutí jsi neopustila svět, Bohorodičko; přešla jsi k životu, protože jsi Matka Života a svými modlitbami zbavuješ naše duše smrti."\
+\
+Přesvatá Panna je tak pro sv. Pravoslaví osobním vyjádřením sebe sama: obsažením v sobě samé vtěleného Božího Slova a jeho přivádění na svět, a to zejména skrze sv. liturgii.\
+\
+kněz Mgr. et Mgr. Jiří V. Táborský
+
+<!--EndFragment-->
