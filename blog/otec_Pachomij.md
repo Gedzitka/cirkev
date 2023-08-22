@@ -1,10 +1,11 @@
 ---
 layout: layouts/sablona__blog.njk
-title: Otec Pachomij
-perex: Svědek Bohočlověka Krista
-foto: otec_Pachomij.jpg
-alt: foto Otec Pachomij
 tags: blog
+title: Otec Pachomij
+date: 2023-08-22T20:05:11.799Z
+foto: /img/uploads/otec_pachomij.jpg
+perex: Svědek Bohočlověka Krista
+alt: foto Otec Pachomij
 ---
 Letos 25. července už uplynulo sedm do chvíle, kdy si náš milostivý Pán povolal k sobě otce schijegumena Pachomije (občanské jméno: ThDr. Roman Paďouk, ThD.), kterého bych označil za vynikajícího člověka, asi jednoho z nejoblíbenějších dítek Božích. Byl velice nadaný: znal kolem třiceti jazyků a působil současně na několika vysokých školách, včetně těch zahraničních, například v Budapešti. Později o. Pachomij dostal od Boha i kříž těžké choroby Parkinsona, se kterou statečně bojoval téměř deset let. Nejspíše si vůbec nedokážeme představit, jak náročný zápas to pro našeho báťušku byl, trval totiž každý den 24 hodin. Přesto o. Pachomij nacházel sílu a plně sloužil Bohu a pomáhal lidem nejen v Církvi, ale i mimo ni. On kázal Krista svým životem. 
 
