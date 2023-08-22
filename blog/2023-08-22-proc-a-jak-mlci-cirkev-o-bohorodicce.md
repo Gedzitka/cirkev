@@ -5,17 +5,13 @@ title: Proč a jak mlčí Církev o Bohorodičce?
 date: 2023-08-22T13:11:51.570Z
 foto: /img/uploads/bohorodice-papir.jpg
 perex: Archimandrita Alexij (Ržancev) ve své práci o Přeblahoslovené Panně Matce
-  Pána našeho Ježíše Krista říká, že rozkrytí dogmatického učení Sv. Církve o
-  Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve Sv.
-  Písmu) je pro nás obecně důležité v souvislosti s vírou v Jednorozeného Božího
-  Syna, který se vtělil pro naši spásu. říká, že rozkrytí dogmatického učení Sv.
-  Církve o Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve
-  Sv. Písmu) je pro nás obecně důležité v souvislosti s vírou v Jednorozeného
-  Božího Syna, který se vtělil pro naši spásu.
+  Pána našeho Ježíše Krista říká.
 ---
+
+
 <!--StartFragment-->
 
-Archimandrita Alexij (Ržancev) ve své práci o Přeblahoslovené Panně Matce Pána našeho Ježíše Krista říká, že rozkrytí dogmatického učení Sv. Církve o Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve Sv. Písmu) je pro nás obecně důležité v souvislosti s vírou v Jednorozeného Božího Syna, který se vtělil pro naši spásu. Avšak, jak upozorňuje protojerej Alexij Knjazěv ve své práci Veliké znamení Království nebeského a jeho příchodu v síle.\
+Že rozkrytí dogmatického učení Sv. Církve o Bohorodičce (dle možnost úplné a komplexní, s odvoláním na základy ve Sv. Písmu) je pro nás obecně důležité v souvislosti s vírou v Jednorozeného Božího Syna, který se vtělil pro naši spásu. Avšak, jak upozorňuje protojerej Alexij Knjazěv ve své práci Veliké znamení Království nebeského a jeho příchodu v síle.\
 V Evangeliju Ježíšova Matka figuruje jako veliká evangelijní mlčenlivost (Евангельская Молчальница), která pokorně kráčí za svým božským Synem. Pravoslavná Církev tuto pravdu velmi hluboko procítila, a proto kromě efezského dogmatu, tedy dogmatu, které je ve své podstatě christologické, nevyjádřila své vyznání o Boží Matce v žádné jiné formulaci dogmatického rázu, ale svěřila toto tajemství niternému prožívání v církevní modlitbě. Veliký pravoslavný myslitel Vladimír Lossky ve svém díle Všesvatá si bere v tomto kontextu na pomoc Basila Velikého a říká, že skutečně nemá být zjevováno v písemné podobě učení o věcech, které nemají být odhaleny těm, kteří nejsou zasvěceni do tajemství, a proto i určitá zamlženost, na niž narážíme v Písmu, je také určitým druhem mlčení, aby se zabránilo snadnému pochopení smyslu učení a lépe se prospělo čtenářům, hledajícím Boha. A vladyka Atanasije Jevtič ve své práci Učení o Přesvaté Bohorodičce u sv. Jana Damašského mluví o tom, že sv. Jan, pokud mluví o Bohorodičce, tak činí tak vždy v rámci christologie.\
 Jan Damašský, jak rovněž upozorňuje vladyka Atanasije, nemá žádné zvláštní mariologie nebo antropologické systémy, v jejichž centru by stála osoba Přečisté Panny. Vladyka Atanasije tak ve své práci postupně přivádí, respektive vrací k myšlence, že čest, kterou vzdáváme Bohorodičce, vychází k Synu, který se přes ni vtělil. Ale nejen čest, nýbrž i vše ostatní. A především správná víra (ορθο-δοξία) a zbožné klanění se (προσκύνησις), jehož středobodem je veliké tajemství zbožnosti, jak říká Ap. Pavel Timetojovi, neboť veškeré tajemství Přesvaté Bohorodičky spočívá v tajemství Krista, které je ze všech tajemství a tajin nejnovější a vlastně jedinou novou pod sluncem.\
 \
