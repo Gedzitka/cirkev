@@ -2,10 +2,11 @@
 layout: layouts/sablona__hlavni.njk
 title: aktuality
 ---
-<section class="actual">
+
 <div class="actual__photo">
 <h1>AKTUALITY</h1>
 </div>  
+<section class="actual">
 {% for aktualita in collections.aktuality %}
 <div class="clanek">
     <img src="/img/{{aktualita.data.foto}}" alt="{{aktualita.data.alt}}">

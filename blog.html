@@ -2,13 +2,14 @@
 layout: layouts/sablona__hlavni.njk
 title: blog
 ---
-<section class="blog">
+
 <div class="blog__photo">
 <h1>BLOG OTCE JIŘÍHO</h1>
 </div>  
+<section class="blog">
 {% for prispevek in collections.blog %}
 <div class="clanek">
-    <img src="/img/{{prispevek.data.foto}}" alt="{{prispevek.data.alt}}">
+    <img src="{{prispevek.data.foto}}" alt="{{prispevek.data.alt}}">
     <div class="clanek__popis">
 <div class="animation">
 <h2>
