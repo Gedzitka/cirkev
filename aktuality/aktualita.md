@@ -1,10 +1,11 @@
 ---
 layout: layouts/sablona__blog.njk
-title: Svěcení pramene 
-perex: Svěcení pramene Elenora...
-foto: elenora.jpg
-alt: ikona sv.Gorazd 
 tags: aktuality
+title: Svěcení pramene
+date: 2023-08-22T20:41:05.179Z
+foto: /img/uploads/elenora.jpg
+perex: Svěcení pramene Elenora...
+alt: ikona sv.Gorazd
 ---
 
 
