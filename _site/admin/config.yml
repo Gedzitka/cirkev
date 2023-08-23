@@ -40,7 +40,6 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     optional: true
     fields:
-      
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__galerie.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
