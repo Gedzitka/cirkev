@@ -33,28 +33,15 @@ collections:
       - {label: "Perex", name: "perex", widget: "string"}
       - {label: "Obsah", name: "body", widget: "markdown"}
   - name: "galerie"
-    label: "Galerie" 
-    widget: "list"
+    label: "Galerie"
     folder: "galerie"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    optional: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__galerie.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
-      - {label: "Popis", name: "desc", widget: "string"}    
-  # - name: "galerie"
-  #   label: "Galerie"
-  #   folder: "galerie"
-  #   create: true
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #   fields:
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__galerie.njk"}
-  #     - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
-  #     - {label: "Titulek", name: "title", widget: "string"}
-  #     - {label: "Obrázek", name: "foto", widget: "image", required: false }
   - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"
