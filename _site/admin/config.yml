@@ -42,6 +42,12 @@ collections:
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
+      - {label: "Obrázek", name: "foto2", widget: "image", required: false }
+      - {label: "Obrázek", name: "foto3", widget: "image", required: false }
+      - {label: "Obrázek", name: "foto4", widget: "image", required: false }
+      - {label: "Obrázek", name: "foto5", widget: "image", required: false }
+      - {label: "Obrázek", name: "foto6", widget: "image", required: false }
+
   - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"
