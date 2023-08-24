@@ -47,7 +47,6 @@ collections:
       - {label: "Obrázek", name: "foto4", widget: "image", required: false }
       - {label: "Obrázek", name: "foto5", widget: "image", required: false }
       - {label: "Obrázek", name: "foto6", widget: "image", required: false }
-
   - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"
