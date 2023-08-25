@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +14,7 @@
     <title>Document</title>
 </head>
 
-<body> ¨
+<body> 
 
     
 <!-- header -->
@@ -60,35 +59,18 @@
        </nav>
     </div>
   </header>
-
-    <div class="galery__photo">
-        <h1>GALERIE</h1>
-    </div>
-    <section class="galery">
-    
-    <div class="animationTranslate">
-    <div class="galery__grid">
-        <div class="galery__box">
-            <a href="/galerie/galerie1/">
-        <img class="galery__title__photo" src="/img/bohorodice_optimized.jpg" alt="">
-        <p class="galery__text">Nová galerie</p></a>
-    </div>
-</div>    
-    </div>
-
-
-    <div class="animationTranslate">
-    <div class="galery__grid">
-        <div class="galery__box">
-            <a href="/galerie/2023-08-25-nova/">
-        <img class="galery__title__photo" src="/img/uploads/otec_pachomij.jpg" alt="">
-        <p class="galery__text">nová</p></a>
-    </div>
-</div>    
-    </div>
-
-
-</section>
+<section class="gallery__photo">
+    <div class="gallery__name">
+        <h1>nová</h1>
+      </div>
+      
+      <div class="gallery__grid">
+      <img class="grid__photo" src="/img/uploads/otec_pachomij.jpg" alt="">
+        <img class="grid__photo" src="" alt="">
+       
+      </div>
+     
+    </section>
 
 
 <div class="footer__contact">
@@ -127,9 +109,9 @@
   
 </section>
 
-
-    <script src="/js/script.js"></script>
-    <script>
+ 
+ <script src="/js/script.js"></script>  
+ <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
@@ -139,6 +121,6 @@
       }
     });
   }
-</script>   
+</script> 
 </body>
 </html>
