@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +14,7 @@
     <title>Document</title>
 </head>
 
-<body> ¨
+<body> 
 
     
 <!-- header -->
@@ -60,25 +59,18 @@
        </nav>
     </div>
   </header>
-<section class="servis">  
-    <div class="servis__title__photo">
-        <h1 class="servis__title__h2">BOHOSLUŽBY</h1>
-        </div>
-
-
-        <div class="servis__wednesday">
-
-          
-            <p class="wednesday__time">
-                Pravidelná NEDĚLNÍ LITURGIE <br> OD 10 H <br>dále dle měsíčního rozpisu níže
-            </p>
-        </div>
+<section class="gallery__photo">
+    <div class="gallery__name">
+        <h1>Nová galerie</h1>
+      </div>
+      
+      <div class="gallery__grid">
+      <img class="grid__photo" src="/img/bohorodice_optimized.jpg" alt="">
+        <img class="grid__photo" src="/img/elenora.jpg" alt="">
        
-        <div class="servis__time">
-            <img class="time__table" src="/img//img/uploads/rozvrh.png" alt="bohoslužby rozpis">
-        </div>
-
-</section>
+      </div>
+     
+    </section>
 
 
 <div class="footer__contact">
@@ -117,9 +109,9 @@
   
 </section>
 
-
-    <script src="/js/script.js"></script>
-    <script>
+ 
+ <script src="/js/script.js"></script>  
+ <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
@@ -129,6 +121,6 @@
       }
     });
   }
-</script>   
+</script> 
 </body>
 </html>

@@ -7,13 +7,13 @@ title: galerie
         <h1>GALERIE</h1>
     </div>
     <section class="galery">
-    {% for fotky in collections.galerie %}
+    {% for foto in collections.galerie %}
     <div class="animationTranslate">
     <div class="galery__grid">
         <div class="galery__box">
-            <a href="{{fotky.url}}">
-        <img class="galery__title__photo" src="{{fotky.data.photo}}" alt="{{fotky.data.alt}}">
-        <p class="galery__text">{{fotky.data.title}}</p></a>
+            <a href="{{foto.url}}">
+        <img class="galery__title__photo" src="{{foto.data.foto}}" alt="{{foto.data.alt}}">
+        <p class="galery__text">{{foto.data.title}}</p></a>
     </div>
 </div>    
     </div>
