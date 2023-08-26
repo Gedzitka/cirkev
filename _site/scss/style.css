@@ -284,18 +284,6 @@ a {
 }
 
 /* About */
-.about__title__photo {
-  background: rgba(160, 158, 158, 0.546) url(/img/o_obci.png);
-  width: 100%;
-  background-blend-mode: darken;
-  background-position: center;
-  background-size: cover;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .about__community {
   display: flex;
   flex-direction: column;
@@ -305,19 +293,18 @@ a {
 
 .community__photo {
   width: 100%;
-  height: 40rem;
+  height: 75vh;
   background: rgba(0, 0, 0, 0.5) url(/img/community.jpg);
   background-position: center;
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 20px;
   margin-bottom: 100px;
-  display: none;
+  display: flex;
 }
 
 .community__conteiner {
@@ -368,11 +355,9 @@ a {
 }
 
 @media (min-width: 900px) {
-  .about__title__photo {
-    display: none;
-  }
   .community__photo {
-    display: flex;
+    background-attachment: fixed;
+    height: 50vh;
   }
   .community__temple__photo {
     display: block;
@@ -463,10 +448,11 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40rem;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .servis {
@@ -539,9 +525,6 @@ a {
     font-size: 22px;
     width: 60%;
   }
-  .servis__title__photo {
-    height: 600px;
-  }
   .time__table {
     width: 70%;
   }
@@ -605,25 +588,28 @@ p {
 
 .blog__photo {
   margin-bottom: 100px;
-  background-image: url(/img/kontakty.png);
-  height: 400px;
+  background: rgba(0, 0, 0, 0.5) url(/img/kontakty.png);
+  height: 50vh;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   color: white;
+  background-position: center;
+  background-blend-mode: darken;
 }
 
 .clanek {
   width: 80%;
-  align-items: center;
+  text-align: center;
   margin-bottom: 100px;
+  background-color: #f8f5f5;
+  padding-bottom: 15px;
 }
 
 .clanek img {
   max-width: 100%;
-  margin-bottom: 30px;
 }
 
 .home__blog {
@@ -636,7 +622,6 @@ p {
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   width: 100%;
   height: 400px;
   display: flex;
@@ -672,10 +657,13 @@ p {
     grid-template-columns: 250px 1fr;
     gap: 30px;
     align-items: center;
-    background-color: #f8f5f5;
+    padding-bottom: 0px;
   }
   .clanek img {
     margin-bottom: 0;
+  }
+  .home__blog {
+    background-attachment: fixed;
   }
 }
 .actual {
@@ -687,16 +675,17 @@ p {
 }
 
 .actual__photo {
-  background: rgba(0, 0, 0, 0.5) url(/img/servis.jpg);
+  background: rgba(0, 0, 0, 0.5) url(/img/klenba.png);
   background-position: center;
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40rem;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .galery__photo {
@@ -705,9 +694,9 @@ p {
   align-items: center;
   background-position: center;
   background-size: cover;
-  background: rgba(0, 0, 0, 0.5) url(/img/o_obci.png);
+  background: rgba(0, 0, 0, 0.5) url(/img/kaple.png);
   background-blend-mode: darken;
-  height: 500px;
+  height: 50vh;
   width: 100%;
   color: white;
 }
@@ -737,12 +726,6 @@ p {
      object-fit: cover;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .container {
   position: relative;
   min-width: 100vh;
@@ -750,9 +733,9 @@ p {
 }
 
 .container_h1 {
-  font-size: 40px;
-  font-family: "Courier New", Courier, monospace;
-  padding: 15px;
+  margin: 5rem 0 0 5rem;
+  font-size: 2rem;
+  padding: 1rem;
   color: black;
   text-align: center;
   text-transform: capitalize;
@@ -855,61 +838,6 @@ p {
   }
   .galery__text {
     margin-top: -50px;
-  }
-}
-.gallery__photo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.gallery__name {
-  text-align: center;
-  margin-top: 100px;
-}
-
-.gallery__grid {
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: 250px;
-  grid-auto-rows: 250px;
-  gap: 5px;
-  margin-bottom: 100px;
-}
-
-.grid__photo {
-  width: 100%;
-  height: 100%;
-  margin: 30px 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.grid__photo:hover {
-  transform: scale(1.5);
-  transition: 2s;
-}
-
-@media (min-width: 550px) {
-  .gallery__grid {
-    grid-template-columns: repeat(2, 250px);
-  }
-  .grid__photo:hover {
-    transform: scale(1.2);
-  }
-}
-@media (min-width: 800px) {
-  .gallery__grid {
-    grid-template-columns: repeat(4, 250px);
-  }
-}
-@media (min-width: 1200px) {
-  .gallery__grid {
-    grid-template-columns: repeat(4, 250px);
-  }
-  .grid__photo:hover {
-    transform: scale(1.7);
   }
 }
 .footer__contact {
@@ -1046,7 +974,7 @@ p {
 
 .contact__photo {
   width: 100%;
-  height: 400px;
+  height: 50vh;
   background: rgba(0, 0, 0, 0.5) url(/img/kontakty.png);
   background-position: center;
   background-size: cover;
@@ -1056,7 +984,6 @@ p {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 20px;
   margin-bottom: 100px;
 }
 
