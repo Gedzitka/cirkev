@@ -602,8 +602,10 @@ p {
 
 .clanek {
   width: 80%;
-  align-items: center;
+  text-align: center;
   margin-bottom: 100px;
+  background-color: #f8f5f5;
+  padding-bottom: 15px;
 }
 
 .clanek img {
