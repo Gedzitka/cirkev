@@ -36,7 +36,7 @@ collections:
     label: "Galerie"
     folder: "galerie"
     create: true
-    widget: "list"
+    widget: "img"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__galerie.njk"}
