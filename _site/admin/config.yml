@@ -36,13 +36,13 @@ collections:
     label: "Galerie"
     folder: "galerie"
     create: true
-    widget: "image"
+    widget: "list"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/sablona__galerie.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
-      - {label: "Obrázek", name: "foto", widget: "list", required: false }
+      - {label: "Obrázek", name: "foto", widget: "image", required: false }
       # - {label: "Obrázek2", name: "foto2", widget: "", required: false }
       # - {label: "Obrázek3", name: "foto3", widget: "image", required: false }
       # - {label: "Obrázek4", name: "foto4", widget: "image", required: false }
