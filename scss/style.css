@@ -732,9 +732,9 @@ p {
 }
 
 .container_h1 {
-  margin: 5rem 0 0 5rem;
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 15px;
   color: black;
   text-align: center;
   text-transform: capitalize;

@@ -670,14 +670,12 @@ a{
     }
     .clanek{
       width: 80%;
-      text-align: center;
+      align-items: center;
       margin-bottom: $specer;
-      background-color: $primary;
-      padding-bottom:15px ;
     }
     .clanek img{
       max-width: 100%;
-    
+      margin-bottom: 30px;
     }
     .home__blog{
       display: flex;
@@ -721,8 +719,7 @@ a{
       grid-template-columns: 250px 1fr;
       gap: 30px;
       align-items: center;
-      padding-bottom:0px ;
-      
+      background-color: $primary;
   
   
       }
@@ -795,15 +792,15 @@ a{
       object-fit: cover;
     }
     
-  .container{
+    .container{
       position: relative;
       min-width: 100vh;
       background:white;
   }
   .container_h1{
-      margin: 5rem 0 0 5rem;
-      font-size: 2rem;
-      padding: 1rem;
+      font-size: 40px;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 15px;
       color:black;
       text-align:center ;
       text-transform: capitalize;
@@ -873,6 +870,7 @@ a{
       }   
       
   }
+  
   
     
     .galery__title__photo:hover {
@@ -1107,7 +1105,7 @@ margin-bottom: 0;
  }
  .contact__photo{
   width: 100%;
-  height: 50vh;
+  height: 400px;
   background: rgb(0, 0, 0, 0.5) url(/img/kontakty.png);
   background-position: center;
   background-size: cover;
@@ -1117,6 +1115,7 @@ margin-bottom: 0;
   justify-content: center;
   align-items: center;
   color: $white;
+  font-size: 20px;
   margin-bottom: $specer;
  }
  .contact__img{
