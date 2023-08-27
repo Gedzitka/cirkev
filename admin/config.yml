@@ -43,6 +43,24 @@ collections:
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
       - {label: "Obrázek2", name: "foto2", widget: "image", required: false }
+      - {label: "Obrázek3", name: "foto3", widget: "image", required: false }
+      - {label: "Obrázek4", name: "foto4", widget: "image", required: false }
+      - {label: "Obrázek5", name: "foto5", widget: "image", required: false }
+      - {label: "Obrázek6", name: "foto6", widget: "image", required: false }
+      - {label: "Obrázek7", name: "foto7", widget: "image", required: false }
+      - {label: "Obrázek8", name: "foto8", widget: "image", required: false }
+      - {label: "Obrázek9", name: "foto9", widget: "image", required: false }
+      - {label: "Obrázek10", name: "foto10", widget: "image", required: false }
+      - {label: "Obrázek11", name: "foto11", widget: "image", required: false }
+      - {label: "Obrázek12", name: "foto12", widget: "image", required: false }
+      - {label: "Obrázek13", name: "foto13", widget: "image", required: false }
+      - {label: "Obrázek14", name: "foto14", widget: "image", required: false }
+      - {label: "Obrázek15", name: "foto15", widget: "image", required: false }
+      - {label: "Obrázek16", name: "foto16", widget: "image", required: false }
+      - {label: "Obrázek17", name: "foto17", widget: "image", required: false }
+      - {label: "Obrázek18", name: "foto18", widget: "image", required: false }
+      - {label: "Obrázek19", name: "foto19", widget: "image", required: false }
+      - {label: "Obrázek20", name: "foto20", widget: "image", required: false }
   - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"
