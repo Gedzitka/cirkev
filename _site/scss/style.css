@@ -748,7 +748,7 @@ p {
 
 .image_container .image {
   max-width: 100%;
-  height: 320px;
+  height: auto;
   width: 250px;
   overflow: hidden;
   cursor: pointer;
@@ -764,6 +764,10 @@ p {
 
 .image_container .image:hover img {
   transform: scale(1.1);
+}
+
+.image-perex {
+  text-align: center;
 }
 
 .popup-image {
@@ -786,6 +790,10 @@ p {
   color: white;
   cursor: pointer;
   z-index: 100;
+}
+
+.image-parex {
+  text-align: center;
 }
 
 .popup-image img {
