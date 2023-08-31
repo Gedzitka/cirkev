@@ -8,4 +8,9 @@ foto2: /img/elenora.jpg
 foto3: /img/elenora.jpg
 foto4: /img/elenora.jpg
 foto5: /img/elenora.jpg
+foto-perex: bkle
+foto2-perex:
+foto3-perex:
+foto4-perex:
+foto5-perex:
 ---
