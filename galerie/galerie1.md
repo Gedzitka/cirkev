@@ -8,6 +8,4 @@ foto2: /img/elenora.jpg
 foto3: /img/elenora.jpg
 foto4: /img/elenora.jpg
 foto5: /img/elenora.jpg
-perex: Archimandrita Alexij (Ržancev) ve své práci o Přeblahoslovené Panně Matce
-  Pána našeho Ježíše Krista říká.
 ---

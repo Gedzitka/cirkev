@@ -673,7 +673,7 @@ a{
       text-align: center;
       margin-bottom: $specer;
       background-color: $primary;
-      padding-bottom: 15px;
+      // padding-bottom: 15px;
     }
     .clanek img{
       max-width: 100%;
@@ -715,7 +715,7 @@ a{
       border:  solid 1px $black;
     }
 
-    @media(min-width:800px){
+    @media(min-width:880px){
     .clanek{
       display: grid;
       grid-template-columns: 250px 1fr;
@@ -729,6 +729,9 @@ a{
       margin-bottom: 0;
       }
       .home__blog{
+        background-attachment: fixed;
+      }
+      .blog__photo{
         background-attachment: fixed;
       }
 
@@ -814,16 +817,15 @@ a{
     }
     
     .image_container .image {
-      height: 250px;
-      width: 350px;
-      border: 2px solid black;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      height: 320px;
+      width: 250px;
       overflow: hidden;
       cursor: pointer;
     }
     
     .image_container .image img {
-      height: 100%;
+      height: auto;
       width: 100%;
       -o-object-fit: cover;
          object-fit: cover;
