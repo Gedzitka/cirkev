@@ -766,10 +766,6 @@ p {
   transform: scale(1.1);
 }
 
-.image-perex {
-  text-align: center;
-}
-
 .popup-image {
   position: fixed;
   top: 0;
