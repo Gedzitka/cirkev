@@ -832,7 +832,7 @@ p {
   .galery {
     flex-direction: row;
     grid-auto-flow: row;
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(auto-fit, 250px);
     gap: 5px;
     margin: 100px;
   }
