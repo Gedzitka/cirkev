@@ -43,10 +43,15 @@ collections:
       - {label: "Tags", name: "tags", widget: "hidden", default: "galerie"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Obrázek", name: "foto", widget: "image", required: false }
+      - {label: "Popis-obrazek", name: "image-perex", widget: "string"}
       - {label: "Obrázek2", name: "foto2", widget: "image", required: false }
+      - {label: "Popis-obrazek", name: "image-pere2", widget: "string"}
       - {label: "Obrázek3", name: "foto3", widget: "image", required: false }
+      - {label: "Popis-obrazek", name: "image-perex3", widget: "string"}
       - {label: "Obrázek4", name: "foto4", widget: "image", required: false }
+      - {label: "Popis-obrazek", name: "image-perex4", widget: "string"}
       - {label: "Obrázek5", name: "foto5", widget: "image", required: false }
+      - {label: "Popis-obrazek", name: "image-perex5", widget: "string"}
   - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"

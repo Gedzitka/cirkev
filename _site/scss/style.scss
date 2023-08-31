@@ -367,6 +367,7 @@ a{
       align-items: center;
       color: $white;
       font-size: 20px;
+      margin-bottom: $specer;
       display: flex;
 
     }
@@ -899,14 +900,14 @@ a{
     .galery{
       flex-direction: row;
       grid-auto-flow: row;
-      grid-template-columns: repeat(auto-fit, 250px);
+      grid-template-columns: repeat(3, 250px);
       gap: 5px;
       margin: $specer;
       }
     .galery__title__photo{
       margin: 0;
       }
-  
+    
       }
     
 
