@@ -713,12 +713,10 @@ p {
 }
 
 .galery__box {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
+  max-width: 100%;
+  width: 20rem;
+  height: auto;
+  cursor: pointer;
 }
 
 .galery__title__photo {
@@ -726,6 +724,7 @@ p {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  overflow: hidden;
 }
 
 .container_h1 {
@@ -822,6 +821,11 @@ p {
 }
 .galery__title__photo:hover {
   transform: scale(1.1);
+}
+
+.galery__title__photo:hover.alery__text {
+  transform: scale(1.1);
+  height: 5rem;
 }
 
 .galery__text {
