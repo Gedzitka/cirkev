@@ -576,6 +576,9 @@ p {
     padding: 20px;
     float: right;
   }
+  .servis__title__photo {
+    background-attachment: fixed;
+  }
 }
 .blog {
   margin-top: 80px;
