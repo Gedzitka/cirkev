@@ -821,6 +821,9 @@ p {
   .popup-image img {
     width: 50%;
   }
+  .actual__photo, .galery__photo {
+    background-attachment: fixed;
+  }
 }
 .galery__title__photo:hover {
   transform: scale(1.1);
