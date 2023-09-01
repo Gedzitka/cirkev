@@ -52,6 +52,8 @@ collections:
       - {label: "Popis-obrazek", name: "foto-perex4", widget: "string"}
       - {label: "Obrázek5", name: "foto5", widget: "image", required: false }
       - {label: "Popis-obrazek", name: "foto-perex5", widget: "string"}
+      "foto6", widget: "image", required: false }
+      - {label: "Popis-obrazek", name: "foto-perex6", widget: "string"}
   - name: "bohosluzby"
     label: "Bohosluzby"
     folder: "bohosluzby"
