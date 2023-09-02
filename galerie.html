@@ -1,5 +1,5 @@
 ---
-layout: layouts/sablona__hlavni.njk
+layout: layouts/sablona_galHome.njk
 title: galerie
 ---
 
@@ -12,8 +12,12 @@ title: galerie
     <div class="galery__grid">
         <div class="galery__box">
             <a href="{{foto.url}}">
+                <div class="photo__text">
         <img class="galery__title__photo" src="{{foto.data.foto}}" alt="{{foto.data.alt}}">
-        <p class="galery__text">{{foto.data.title}}</p></a>
+        <h2 class="galery__text">{{foto.data.title}}</h2>
+    </div>
+</a>
+    </div>
     </div>
 </div>    
     </div>
